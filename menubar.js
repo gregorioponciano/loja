@@ -1,15 +1,15 @@
-var header = document.getElementById('header');
-var navigationHeader = document.getElementById('navigation_header');
-var content = document.getElementById('content');
+var header = document.getElementsByClassName('header');
+var navigationHeader = document.getElementsByClassName('navigation_header');
+var content = document.getElementsByClassName('content');
 var showSidebar = false;
 
 function toggleSidebar() 
 {
-    showSidebar = !showSidebar
+    showSidebar = !showSidebar;
     if (showSidebar) 
     {
         navigationHeader.style.marginLeft = '-10vw';
-        navigationHeader.style.animationName - 'showSidebar';
+        navigationHeader.style.animationName = 'showSidebar';
     }
     else 
     {
