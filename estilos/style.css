@@ -1,103 +1,101 @@
 @charset "UTF-8";
 
-* {
-                            margin: 0px;
-                            padding: 0px;
+:root {
+                                --color-1: #ffffff;
+                                --color-2: #302929;
+                                --color-3: #1e1e229f;
+                                --color-4: #d628c8;
+                                --color-5: #fff;
+}
 
-      
+* {
+                                margin: 0px;
+                                padding: 0px;      
 }
 
 body {
-    background-image: linear-gradient(to bottom, #F2DC83, #E7BB58, #CF5736, #992278, #4E32CA 80%);   
-                            width: 100vw;
+                                font-family: Arial, Helvetica, sans-serif;
+                                background-color: var(--color-2);   
+                                background-attachment: fixed;
+                                width: 100vw;
+                                color: var(--color-1);
 
 }
 
-#h1-head {
-                            display: flex;
-}
-
-h1 {
-                            
-                            margin: auto;
-}
-
-header {
-                            display: flex;
-                            margin-left: 5px;
-}
-
-nav {                 
-                            display: flex;
-}
-
-
-.material-symbols-outlined { 
-                            padding: 5px 0px 0px 3px;
-}
-
-
-
-ul {    
-                        list-style-type: none;
-                        display: inline-block;                     
-}
-
-li {
-                        text-align: center;
-                        margin: 10px 0px 15px 2px; 
-                        border-radius: 4px;                      
-}
-
-li:hover {
-                        background-color: rgba(0, 0, 0, 0.315);
-}
-
-.menubar {
-                        text-decoration: none;
-                        color: black;
-                        padding: 3px;
+#img_header_logo { 
+                                width: 40px;
 
 }
 
-#itensmenu {            
-                        display: inline;
+.header, .navigation_header {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
 }
 
-
-section { 
-                    margin: auto;
-                    padding-top: 30px;
-                    text-align: center;
+.navigation_header { 
+                                gap: 3em;
 }
 
-h1 { 
-                    text-align: center;
-                    margin-bottom: 10px;
+.navigation_header > a {
+                                text-decoration: none;
+                                color: var(--color-4);
+                                transition: 1s;
+                                font-weight: bold;
 }
 
-.sites-resposivos {
-                  margin: auto;
-                  display: block;
-                  margin-top: 20px; 
+.header {
+                                background-color: var(--color-2);
+                                box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.555);
+                                height: 3.5em;
+                                justify-content: space-between;
+                                padding: 0 10%;
 }
 
-.img-sombra {
-                    width: 70vw;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    border-radius: 5px;
-                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349); 
+.active {
+                                background-color: var(--color-3);
+                                padding: 10px;
+                                border-radius: 10px;
 }
 
-article { 
-                    width: 60vw;
-                    margin: auto;
+.content {
+                                text-align: center;
+                                padding-top: 5em;
+                                height: 100vh;
+                                transition: 1s;
 }
 
-.img-logos {
-                    width: 50px;
+.btn_icon_header { 
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                                cursor: pointer;
+                                color: white;
 }
+
+@media screen and (max-width: 768px){
+        .btn_icon_header {  
+                                display: block;
+
+        }
+        .navigation_header {    
+                                position: absolute;
+                                flex-direction: column;
+                                top: 0;
+                                background-color: var(--color-2);
+                                height: 100%;
+                                width: 35vw;
+                                padding: 1em;
+                                animation-duration: 1s;
+                                margin-left: -10vw;
+        }
+}
+
+@keyframes showSidebar {
+                              from {margin-left: -100vw;}
+                              top {margin-left: -10vw;}  
+}
+
 
 
                        
