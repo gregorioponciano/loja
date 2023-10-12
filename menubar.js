@@ -10,10 +10,12 @@ function toggleSidebar()
     {
         navigationHeader.style.marginLeft = '-10vw';
         navigationHeader.style.animationName = 'showSidebar';
+        content.style.filter = 'blur(2px)';
     }
     else 
     {
         navigationHeader.style.marginLeft = '-100vw';
+        navigationHeader.style.animationName = '';
     }
 }
 

@@ -28,12 +28,13 @@ body {
 
 .header, .navigation_header {
                                 display: flex;
-                                flex-direction: row;
+                                flex-direction: row; 
                                 align-items: center;
 }
 
 .navigation_header { 
-                                gap: 3em;
+                                gap: 3em;       /* espaço entre os links */
+                                z-index: 2;   /* sao camadas igual no phootoshop (menubar abre por cima do texto) */
 }
 
 .navigation_header > a {
