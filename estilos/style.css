@@ -95,10 +95,11 @@ body {
 
 .img-loja  {
                                 margin-top: 20px;
-                                width: 35%;
+                                width: 35vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
 }
+
 
 @media screen and (max-width: 768px){
         .btn_icon_header {  
@@ -122,20 +123,26 @@ body {
                                 width: 70vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
-}
-}
+        }
+        }
 
-.redes {
+        .redes {
                                 border: 1px solid rgb(37, 219, 67);
                                 border-radius: 5px;
-                                width: 50vw;
+                                width: 35vw;
                                 margin: auto;
-}
+                                margin-top: 20px;
+                                display: flex;
+                                text-align: center;
+        }
 
-.redes-img {
+        .redes-img {
                                 width: 24px;
                                 padding: 5px;
-}
+                                text-align: center;
+                                display: block;
+                                margin: auto;
+        }
 
 
 
