@@ -19,6 +19,7 @@ body {
                                 background-image: url(../imagens/background.png); 
                                 background-repeat: no-repeat;
                                 background-size: cover;
+                                height: 100vh;
                                 background-position: center center; 
                                 width: 100vw;
                                 color: var(--color-5);
@@ -80,7 +81,8 @@ body {
 .content {
                                 text-align: center;
                                 padding-top: 5em;
-                                height: 100vh;
+                                 
+                                margin: auto;  
                                 transition: 1s;
                                 text-shadow: 5px 5px 4px black;
 }
@@ -95,9 +97,27 @@ body {
 
 .img-loja  {
                                 margin-top: 20px;
-                                width: 35vw;
+                                width: 55vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+.redes {
+        border: 1px solid rgb(37, 219, 67);
+        border-radius: 5px;
+        width: 55vw;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        text-align: center;
+}
+
+.redes-img {
+        width: 24px;
+        padding: 5px;
+        text-align: center;
+        display: block;
+        margin: auto;
 }
 
 
@@ -112,7 +132,7 @@ body {
                                 top: 0;
                                 background-color: var(--color-2);
                                 height: 100%;
-                                width: 35vw;
+                                width: 40vw;
                                 padding: 1em;
                                 animation-duration: 1s;
                                 margin-left: -100vw;
@@ -120,7 +140,7 @@ body {
         .img-loja  {
                                 margin-top: 20px;
                                 margin-bottom: 20px;
-                                width: 70vw;
+                                width: 55vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
         }
@@ -129,7 +149,7 @@ body {
         .redes {
                                 border: 1px solid rgb(37, 219, 67);
                                 border-radius: 5px;
-                                width: 35vw;
+                                width: 55vw;
                                 margin: auto;
                                 margin-top: 20px;
                                 display: flex;
