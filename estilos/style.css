@@ -73,9 +73,9 @@ body {
 }
 
 #active:hover { 
-        background-color: white;
-        padding: 10px;
-        border-radius: 10px;
+                                background-color: white;
+                                padding: 10px;
+                                border-radius: 10px;
 }
 
 .content {
@@ -97,27 +97,27 @@ body {
 
 .img-loja  {
                                 margin-top: 20px;
-                                width: 55vw;
+                                width: 40vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
 }
 
 .redes {
-        border: 1px solid rgb(37, 219, 67);
-        border-radius: 5px;
-        width: 55vw;
-        margin: auto;
-        margin-top: 20px;
-        display: flex;
-        text-align: center;
+                                border: 1px solid rgb(37, 219, 67);
+                                border-radius: 5px;
+                                width: 40vw;
+                                margin: auto;
+                                margin-top: 20px;
+                                display: flex;
+                                text-align: center;
 }
 
 .redes-img {
-        width: 24px;
-        padding: 5px;
-        text-align: center;
-        display: block;
-        margin: auto;
+                                width: 24px;
+                                padding: 5px;
+                                text-align: center;
+                                display: block;
+                                margin: auto;
 }
 
 
@@ -144,7 +144,7 @@ body {
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
         }
-        }
+        
 
         .redes {
                                 border: 1px solid rgb(37, 219, 67);
@@ -164,7 +164,7 @@ body {
                                 margin: auto;
         }
 
-
+}
 
 @keyframes showSidebar {
                               from {margin-left: -100vw;}
