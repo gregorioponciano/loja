@@ -37,6 +37,7 @@ body {
 
 #img_header_logo { 
                                 width: 40px;
+                                cursor: pointer;
 
 }
 
@@ -92,12 +93,14 @@ body {
                                 margin: auto;  
                                 transition: 1s;
                                 text-shadow: 5px 5px 4px black;
+
 }
 
 .meu-rosto {
                                 display: block;
                                 margin: auto;
-                                width: 250px;
+                                width: 15vw;
+                                cursor: pointer;  
                                 filter: hue-rotate(100deg);
 
 
@@ -107,8 +110,6 @@ body {
                                 filter: hue-rotate(0deg);
 
 }
-
-
 
 .img-loja  {
                                 margin-top: 20px;
@@ -134,6 +135,7 @@ body {
                                 text-align: center;
                                 display: block;
                                 margin: auto;
+                                cursor: pointer;
                                 filter: contrast(0%);
                                 transition: 0.3s linear;
 }
