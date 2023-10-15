@@ -27,6 +27,14 @@ body {
 
 }
 
+.btn_icon_header { 
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                                cursor: pointer;
+                                color: white;
+}
+
 #img_header_logo { 
                                 width: 40px;
 
@@ -80,20 +88,28 @@ body {
 
 .content {
                                 text-align: center;
-                                padding-top: 5em;
-                                 
+                                padding-top: 5em; 
                                 margin: auto;  
                                 transition: 1s;
                                 text-shadow: 5px 5px 4px black;
 }
 
-.btn_icon_header { 
-                                background-color: transparent;
-                                border: none;
-                                display: none;
-                                cursor: pointer;
-                                color: white;
+.meu-rosto {
+                                display: block;
+                                margin: auto;
+                                width: 250px;
+                                filter: hue-rotate(100deg);
+                                background-color: rgba(0, 0, 0, 0.377);
+                                border-radius: 50%;
+
 }
+
+.meu-rosto:hover {
+                                filter: hue-rotate(0deg);
+                                background-color: black;
+}
+
+
 
 .img-loja  {
                                 margin-top: 20px;
