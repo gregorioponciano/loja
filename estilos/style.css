@@ -88,12 +88,19 @@ body {
 }
 
 .content {
-                                text-align: center;
-                                padding-top: 5em; 
-                                margin: auto;  
+                                text-align: center; 
+                                margin: 20px auto;
+                                padding: 10px;
+                                border-radius: 15px;  
                                 transition: 1s;
                                 text-shadow: 5px 5px 4px black;
+                                background-color: black;
+                                width: 39vw;
 
+}
+
+h1 {
+                                padding: 20px 0px 20px 0px;
 }
 
 .meu-rosto {
@@ -112,7 +119,8 @@ body {
 }
 
 .img-loja  {
-                                margin-top: 20px;
+                                margin: auto;
+                                display: block;
                                 width: 40vw;
                                 border-radius: 10px;
                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
@@ -171,6 +179,18 @@ p {
                                 animation-duration: 1s;
                                 margin-left: -100vw;
         }
+
+        .content {
+                                text-align: center; 
+                                margin: 20px auto;
+                                padding: 10px;
+                                border-radius: 15px;  
+                                transition: 1s;
+                                text-shadow: 5px 5px 4px black;
+                                background-color: black;
+                                width: 53vw;
+        }
+
         .img-loja  {
                                 margin-top: 20px;
                                 margin-bottom: 20px;
