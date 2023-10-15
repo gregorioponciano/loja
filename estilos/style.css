@@ -99,14 +99,13 @@ body {
                                 margin: auto;
                                 width: 250px;
                                 filter: hue-rotate(100deg);
-                                background-color: rgba(0, 0, 0, 0.377);
-                                border-radius: 50%;
+
 
 }
 
 .meu-rosto:hover {
                                 filter: hue-rotate(0deg);
-                                background-color: black;
+
 }
 
 
