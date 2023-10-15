@@ -118,10 +118,14 @@ body {
                                 text-align: center;
                                 display: block;
                                 margin: auto;
+                                filter: contrast(0%);
+                                transition: 0.3s linear;
 }
 
 .redes-img:hover {
-                                background-color: #d628c8;
+                                filter: contrast(100%);
+                                width: 26px;
+
 }
 
 
