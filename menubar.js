@@ -10,7 +10,7 @@ function toggleSidebar()
     {
         navigationHeader.style.marginLeft = '-10vw';
         navigationHeader.style.animationName = 'showSidebar';    // animaçao abrir o menu devagar ligado a @keyframe na css
-        content.style.filter = 'blur(2px)';                      // embassa com filtro embassado
+       // content.style.filter = 'blur(2px)';                      // embassa com filtro embassado
     }
     else 
     {
