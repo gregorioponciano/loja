@@ -91,12 +91,32 @@ body {
                                 text-align: center; 
                                 margin: 20px auto;
                                 padding: 10px;
-                                border-radius: 15px;  
-                                transition: 1s;
+                                border-radius: 15px; 
                                 text-shadow: 5px 5px 4px black;
                                 background-color: black;
                                 width: 39vw;
 
+}
+
+.link-free {
+                                color: white;
+                                text-decoration: none;
+                                background-color: blue;
+                                margin: 15px;
+}
+
+.paragrafo-free {
+                                background-color: blue;
+                                padding: 10px;
+                                width: 30vw;
+                                margin: 15px auto;
+                                border-radius: 25px;
+                                
+}
+
+.link-free:hover {
+                                color: red;
+                                text-decoration: none;
 }
 
 h1 {
@@ -195,6 +215,27 @@ p {
                                 background-color: black;
                                 width: 53vw;
         }
+
+        .link-free {
+                                color: white;
+                                text-decoration: none;
+                                background-color: blue;
+                                margin: 15px;
+}
+
+        .paragrafo-free {
+                                background-color: blue;
+                                padding: 10px;
+                                width: 40vw;
+                                margin: 15px auto;
+                                border-radius: 25px;
+                
+}
+
+.link-free:hover {
+                                color: red;
+                                text-decoration: none;
+}
 
         .img-loja  {
                                 margin-top: 20px;
