@@ -132,13 +132,13 @@ h1 {
                                 margin: auto;
                                 width: 15vw;
                                 cursor: pointer;  
-                                filter: hue-rotate(100deg);
+                                filter: hue-rotate(0deg);
 
 
 }
 
 .meu-rosto:hover {
-                                filter: hue-rotate(0deg);
+                                filter: hue-rotate(50deg);
 
 }
 
