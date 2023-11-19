@@ -17,7 +17,6 @@ body {
                                 font-family: Arial, Helvetica, sans-serif;
                                 background-color: var(--color-2);
                                 background-image: url(../imagens/background.png); 
-                                background-repeat: no-repeat;
                                 background-size: cover;
                                 height: 100vh;
                                 background-position: center center; 
@@ -94,7 +93,7 @@ body {
                                 border-radius: 15px; 
                                 text-shadow: 5px 5px 4px black;
                                 background-color: rgba(0, 0, 0, 0.753);
-                                width: 30vw;
+                                width: 50vw;
 
 }
 
@@ -130,7 +129,7 @@ h1 {
 .meu-rosto {
                                 display: block;
                                 margin: auto;
-                                width: 15vw;
+                                width: 30vw;
                                 cursor: pointer;  
                                 filter: hue-rotate(0deg);
 
@@ -142,13 +141,7 @@ h1 {
 
 }
 
-.img-loja  {
-                                margin: auto;
-                                display: block;
-                                width: 31vw;
-                                border-radius: 10px;
-                                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
-}
+
 
 .redes {
                                 border: 1px solid rgb(37, 219, 67);
@@ -159,6 +152,7 @@ h1 {
                                 display: flex;
                                 text-align: center;
                                 margin-bottom: 20px;
+                                background-color: rgba(0, 0, 0, 0.5);
 }
 
 .link-redes { 
@@ -217,8 +211,18 @@ p {
                                 border-radius: 15px;
                                 text-shadow: 5px 5px 4px black;
                                 background-color: rgba(0, 0, 0, 0.753);
-                                width: 60vw;
+                                width: 70vw;
         }
+
+        .meu-rosto {
+                display: block;
+                margin: auto;
+                width: 50vw;
+                cursor: pointer;  
+                filter: hue-rotate(0deg);
+
+
+}
 
         .link-free {
                                 color: white;
@@ -236,13 +240,7 @@ p {
                 
         }
 
-        .img-loja  {
-                                margin-top: 20px;
-                                margin-bottom: 20px;
-                                width: 63vw;
-                                border-radius: 10px;
-                                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
-        }
+
         
 
         .redes {
