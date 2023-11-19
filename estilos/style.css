@@ -93,7 +93,7 @@ body {
                                 padding: 10px;
                                 border-radius: 15px; 
                                 text-shadow: 5px 5px 4px black;
-                                background-color: black;
+                                background-color: rgba(0, 0, 0, 0.753);
                                 width: 30vw;
 
 }
@@ -216,7 +216,7 @@ p {
                                 padding: 10px;
                                 border-radius: 15px;
                                 text-shadow: 5px 5px 4px black;
-                                background-color: black;
+                                background-color: rgba(0, 0, 0, 0.753);
                                 width: 60vw;
         }
 
