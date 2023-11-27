@@ -26,6 +26,14 @@ body {
 
 }
 
+.header {
+                                position: fixed; 
+                                top: 0px;
+                                max-width: 90%;
+                                width: 80%;
+                                z-index: 2;   /* sao camadas igual no phootoshop (menubar abre por cima do texto) */
+}
+
 .btn_icon_header { 
                                 background-color: transparent;
                                 border: none;
@@ -48,7 +56,6 @@ body {
 
 .navigation_header { 
                                 gap: 3em;       /* espaço entre os links */
-                                z-index: 2;   /* sao camadas igual no phootoshop (menubar abre por cima do texto) */
 }
 
 .navigation_header > a {
@@ -206,7 +213,7 @@ p {
                                 flex-direction: column;
                                 top: 0;
                                 background-color: var(--color-2);
-                                height: 50vh;
+                                height:92vh;
                                 width: 30vw;
                                 padding: 1em;
                                 animation-duration: 1s;
@@ -225,11 +232,11 @@ p {
         }
 
         .meu-rosto {
-                display: block;
-                margin: auto;
-                width: 50vw;
-                cursor: pointer;  
-                filter: hue-rotate(0deg);
+                                display: block;
+                                margin: auto;
+                                width: 50vw;
+                                cursor: pointer;  
+                                filter: hue-rotate(0deg);
 
 
 }
