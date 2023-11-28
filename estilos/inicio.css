@@ -122,6 +122,10 @@ h1 {
                                 height: 50px;
                                 border-radius: 8px;
 }
+.link-what-content {
+                                color: black;
+                                text-decoration: none;
+}
 .redes {
                                 border: 1px solid rgb(37, 219, 67);
                                 border-radius: 5px;
@@ -223,34 +227,39 @@ p {
                                         height: 50px;
                                         border-radius: 8px;
         }
+
+        .link-what-content {
+                                        color: black;
+                                        text-decoration: none;
+        }
        .redes {
-                                border: 1px solid rgb(37, 219, 67);
-                                border-radius: 5px;
-                                width: 62vw;
-                                margin: auto;
-                                margin-top: 20px;
-                                display: flex;
-                                text-align: center;
-                                margin-bottom: 20px;
+                                        border: 1px solid rgb(37, 219, 67);
+                                        border-radius: 5px;
+                                        width: 62vw;
+                                        margin: auto;
+                                        margin-top: 20px;
+                                        display: flex;
+                                        text-align: center;
+                                        margin-bottom: 20px;
                                 
         }
 
         .redes-img {
-                                width: 25px;
-                                padding: 5px;
-                                text-align: center;
-                                display: block;
-                                margin: auto;
+                                        width: 25px;
+                                        padding: 5px;
+                                        text-align: center;
+                                        display: block;
+                                        margin: auto;
                                 
         }
 
         footer {
-                                background-color: black;
-                                padding: 10px;
+                                        background-color: black;
+                                        padding: 10px;
         }
 
         p {
-                                text-align: center;
+                                        text-align: center;
         }
 
 }
