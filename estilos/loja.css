@@ -16,7 +16,7 @@
 body {
                                 font-family: Arial, Helvetica, sans-serif;
                                 background-color: var(--color-2);
-                                background-color: rgb(87, 14, 14);
+                                background-image: url(../imagens/background.png); 
                                 background-size: cover;
                                 height: 100vh;
                                 background-position: center center; 
@@ -56,7 +56,6 @@ body {
 
 .navigation_header { 
                                 gap: 3em;       /* espaço entre os links */
-                               
 }
 
 .navigation_header > a {
@@ -93,35 +92,64 @@ body {
                                 padding: 10px;
                                 border-radius: 10px;
 }
-h1 {
-                                text-align: center;
-                                margin-bottom: 20px;
-                                font-size: bolder ;
-                                width: 85vw;
-}
-
-.p-content {
-                                text-align: center;
-                                width: 82vw;
-                                margin-bottom: 20px;
-}
 
 .content {
-                                height: 500px;
-                                margin: auto;
-                                background-color: #d628c8;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                flex-direction: column;
-                                margin-bottom: 20px;
+                                text-align: center; 
+                                margin: 20px auto;
+                                padding: 10px;
+                                border-radius: 15px; 
+                                text-shadow: 5px 5px 4px black;
+                                background-color: rgba(0, 0, 0, 0.753);
+                                width: 50vw;
 
 }
-.button-content {
-                                width: 100px;
-                                height: 50px;
-                                border-radius: 8px;
+
+h1 {
+                                text-shadow: 2px 2px 2px red;
 }
+
+.link-free {
+                                color: white;
+                                text-decoration: none;
+                                background-color: blue;
+                                margin: 15px;
+}
+
+.paragrafo-free {
+                                background-color: blue;
+                                padding: 10px;
+                                width: 25vw;
+                                margin: 15px auto;
+                                border-radius: 25px;
+                                
+}
+
+.link-free:hover {
+                                color: red;
+                                text-decoration: none;
+}
+
+h1 {
+                                padding: 20px 0px 20px 0px;
+}
+
+.meu-rosto {
+                                display: block;
+                                margin: auto;
+                                width: 30vw;
+                                cursor: pointer;  
+                                filter: hue-rotate(0deg);
+
+
+}
+
+.meu-rosto:hover {
+                                filter: hue-rotate(50deg);
+
+}
+
+
+
 .redes {
                                 border: 1px solid rgb(37, 219, 67);
                                 border-radius: 5px;
@@ -185,45 +213,54 @@ p {
                                 flex-direction: column;
                                 top: 0;
                                 background-color: var(--color-2);
-                                height: 90vh;
+                                height:92vh;
                                 width: 30vw;
                                 padding: 1em;
                                 animation-duration: 1s;
                                 margin-left: -100vw;
                                 
         }
-        h1 {
-                                text-align: center;
-                                margin-bottom: 20px;
-                                font-size: bolder ;
-                                width: 85vw;
 
-                                
+        .content {
+                                text-align: center; 
+                                margin: 20px auto;
+                                padding: 10px;
+                                border-radius: 15px;
+                                text-shadow: 5px 5px 4px black;
+                                background-color: rgba(0, 0, 0, 0.753);
+                                width: 70vw;
+        }
+
+        .meu-rosto {
+                                display: block;
+                                margin: auto;
+                                width: 50vw;
+                                cursor: pointer;  
+                                filter: hue-rotate(0deg);
+
+
+}
+
+        .link-free {
+                                color: white;
+                                text-decoration: none;
+                                background-color: blue;
+                                margin: 15px;
+}
+
+        .paragrafo-free {
+                                background-color: blue;
+                                padding: 10px;
+                                width: 40vw;
+                                margin: 15px auto;
+                                border-radius: 25px;
                 
         }
 
-        .p-content {
-                                        text-align: center;
-                                        width: 82vw;
-        }
+
         
-        .content {
-                                        height: 500px;
-                                        margin: auto;
-                                        background-color: #d628c8;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        flex-direction: column;
-                                        margin-bottom: 20px;
-        
-        }
-        .button-content {
-                                        width: 80vw;
-                                        height: 50px;
-                                        border-radius: 8px;
-        }
-       .redes {
+
+        .redes {
                                 border: 1px solid rgb(37, 219, 67);
                                 border-radius: 5px;
                                 width: 62vw;
