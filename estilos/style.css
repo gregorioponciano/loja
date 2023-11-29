@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-                                --color-background: #000000;
+                                --color-background: #00000077;
                                 --color-menu-link: #d628c8;
                                 --color-menu: #302929;
                                 --color-a-hover-menu: #ffffff;
@@ -21,7 +21,6 @@ body {
                                 height: 100vh;
                                 background-position: center center; 
                                 width: 100vw;
-                                color: 
 }
 
 .header {
