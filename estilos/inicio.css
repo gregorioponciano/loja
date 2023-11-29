@@ -1,17 +1,19 @@
 @charset "UTF-8";
 
 
-h1 {
+h1 {                            color: var(--color-h1-content);                                      
                                 text-align: center;
                                 margin-bottom: 20px;
-                                font-size: bolder ;
                                 width: 85vw;
+                                font-size: 2em;
 }
 
 .p-content {
                                 text-align: center;
                                 width: 82vw;
                                 margin-bottom: 20px;
+                                font-size: 20px;
+                                color: var(--color-p-content); 
 }
 
 .content {
