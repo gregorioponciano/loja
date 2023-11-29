@@ -173,10 +173,6 @@ p {
 
 }
 
-@keyframes showSidebar {
-                              from {margin-left: -100vw;}
-                              top {margin-left: -10vw;}  
-}
 
 
 

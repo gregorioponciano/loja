@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
 :root {
-                                --color-menu-link: #ffffff;
-                                --color-menu: #302929;
                                 --color-background: #c411119f;
-                                --color-h1-content: #d628c8;
+                                --color-menu-link: #d628c8;
+                                --color-menu: #302929;
+                                --color-a-hover-menu: #ffffff;
+                                --color-h1-content: rgb(255, 255, 255);
                                 --color-p-content: #ffffff;
 }
 
@@ -20,14 +21,11 @@ body {
                                 height: 100vh;
                                 background-position: center center; 
                                 width: 100vw;
-                                color: var(--color-5);
-                                
-
 }
 
 .header {
                                 position: fixed; 
-                                top: 0px;
+                                top: -1px;
                                 max-width: 90%;
                                 width: 80%;
                                 z-index: 2;   /* sao camadas igual no phootoshop (menubar abre por cima do texto) */
@@ -59,7 +57,7 @@ body {
 
 .navigation_header > a {
                                 text-decoration: none;
-                                color: var(--color-4);
+                                color: var(--color-menu-link);
                                 transition: 0.5s;
                                 font-weight: bold;
 }
@@ -67,7 +65,7 @@ body {
 
 
 .header {
-                                background-color: var(--color-2);
+                                background-color: var(--color-menu);
                                 box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.555);
                                 height: 3.5em;
                                 justify-content: space-between;
@@ -75,18 +73,12 @@ body {
 }
 
 #active {
-                                background-color: var(--color-3);
+                                background-color: var(--color-a-hover-menu);
                                 padding: 10px;
                                 border-radius: 10px;
 }
 
 .active:hover { 
-                                background-color: white;
-                                padding: 10px;
-                                border-radius: 10px;
-}
-
-#active:hover { 
                                 background-color: white;
                                 padding: 10px;
                                 border-radius: 10px;
@@ -111,7 +103,7 @@ body {
                                 position: absolute;
                                 flex-direction: column;
                                 top: 0;
-                                background-color: var(--color-2);
+                                background-color: var(--color-menu);
                                 height: 90vh;
                                 width: 30vw;
                                 padding: 1em;
