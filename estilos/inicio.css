@@ -16,10 +16,24 @@ h1 {                            color: var(--color-h1-content);
                                 color: var(--color-p-content); 
 }
 
-.content {
+#content {
+                                background-image: url(../imagens/img-content.png);
+                                background-size: cover;
+                                background-repeat: no-repeat;
                                 height: 500px;
-                                margin: auto;
-                                background-color: #d628c8;
+                                margin-top: 10px;
+}
+
+#content1 {
+                                background-image: url(../imagens/img-content.png);
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                height: 500px;
+}
+
+.content {
+                               
+                                margin: auto;                         
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
@@ -72,6 +86,7 @@ footer {
 
 p {
                                 text-align: center;
+                                color: white;
 }
 
 
@@ -93,16 +108,29 @@ p {
         }
         
         .content {
-                                        height: 500px;
+                                        
                                         margin: auto;
-                                        background-color: #d628c8;
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
                                         flex-direction: column;
-                                        margin-bottom: 20px;
         
         }
+
+        #content {
+                                        background-image: url(../imagens/img-content.png);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        height: 350px;
+                                        margin-bottom: 20px;
+}
+
+        #content1 {
+                                        background-image: url(../imagens/img-content.png);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        height: 300px;
+}
         .button-content {
                                         width: 80vw;
                                         height: 50px;
