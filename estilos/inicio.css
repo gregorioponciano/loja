@@ -46,12 +46,23 @@ h1 {                            color: var(--color-h1-content);
 }
 
 .hora-atendimento{
-                                width: 90vw;
-                                height: 500px;
-                                
-                                background-color: antiquewhite;
+                                width: 90vw;                               
+                                background-color: rgb(255, 255, 255);
                                 margin: 50px auto;
                                 
+}
+
+caption{
+                                margin-bottom: 20px;
+}
+
+form {
+                                text-align: center;
+                                padding: 20px;
+}
+
+input{
+                               
 }
 
 .button-content {
