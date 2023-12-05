@@ -22,6 +22,7 @@ h1 {                            color: var(--color-h1-content);
                                 background-repeat: no-repeat;
                                 height: 500px;
                                 margin-top: 10px;
+                                width: 90vw;
 }
 
 #content1 {
