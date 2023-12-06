@@ -61,7 +61,10 @@ form {
                                 padding: 20px;
 }
 
-input{
+.enviar{                          
+                                background-color: blue;
+                                color: white;
+                                padding: 5px;
                                
 }
 
