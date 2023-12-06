@@ -124,7 +124,7 @@ footer {
                                 padding: 10px;
 }
 
-p {
+.p-footer {
                                 text-align: center;
                                 color: white;
 }
@@ -179,15 +179,6 @@ p {
             
     }
 
-    footer {
-                                background-color: black;
-                                padding: 10px;
-    }
-
-    p {
-                                text-align: center;
-                                color: white;
-    }
 
 @keyframes showSidebar {
                 from {margin-left: -100vw;}
