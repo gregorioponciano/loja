@@ -52,6 +52,10 @@ h1 {
 
 }
 
+p{
+                color: var(--color-menu-link);
+}
+
 @media screen and (max-width: 768px){
 
         .content {
