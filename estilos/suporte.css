@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+section{
+            width: 90vw;
+            margin: 100px auto;
+            background-color: rgba(240, 248, 255, 0.37);
+}
+
+h1  {
+            text-align: center;
+}
+
+p{
+            text-align: center;
+}
