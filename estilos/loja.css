@@ -52,6 +52,7 @@ h1 {
 
 }
 
+
 p{
                 color: var(--color-menu-link);
 }
@@ -65,6 +66,10 @@ p{
                                 border-radius: 15px;
                                 background-color: rgba(0, 0, 0, 0.753);
                                 width: 70vw;
+                                
+        }
+
+        #content {
                                 margin-top: 100px;
         }
 
@@ -93,6 +98,8 @@ p{
                                 border-radius: 25px;
                 
         }
+
+
 
 }
 
