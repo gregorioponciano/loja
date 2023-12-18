@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+#content1 {
+                                margin-top: 100px;
+                                background-image: linear-gradient(to left, rgba(78, 71, 71, 0.596), rgba(255, 0, 0, 0.404));
+}
+
+#content2 {
+                                background-image: linear-gradient(to left, rgba(64, 71, 64, 0.753), rgba(53, 165, 19, 0.404));
+}
+
+#content3 {       
+                                background-image: linear-gradient(to left, rgba(71, 80, 71, 0.596), rgba(0, 0, 255, 0.596));
+}
+
 .content {
                                 text-align: center; 
                                 margin: 20px auto;
@@ -51,10 +64,10 @@ h1 {
                                 filter: hue-rotate(50deg);
 
 }
+ 
 
-
-p{
-                color: var(--color-menu-link);
+p {
+                                color: white;
 }
 
 @media screen and (max-width: 768px){
@@ -67,10 +80,6 @@ p{
                                 background-color: rgba(0, 0, 0, 0.753);
                                 width: 70vw;
                                 
-        }
-
-        #content {
-                                margin-top: 100px;
         }
 
         .meu-rosto {
