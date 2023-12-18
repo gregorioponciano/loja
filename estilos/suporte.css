@@ -4,12 +4,21 @@ section{
             width: 90vw;
             margin: 100px auto;
             background-color: rgba(240, 248, 255, 0.37);
+            padding: 10px 0px 10px 0px;
 }
 
-h1  {
-            text-align: center;
+h1 {
+                        margin: 20px;
+
 }
 
-p{
-            text-align: center;
+.p-section {
+                            margin: 10px;
+                            text-indent: 1.5em;
+                            
+}
+
+.link-section {
+                            text-decoration: none;
+                            color: black;
 }
