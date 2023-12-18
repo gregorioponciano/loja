@@ -1,5 +1,53 @@
 @charset "UTF-8";
 
+.cadastro {
+                            background-image: linear-gradient(to left, #FF0000, #0000FF);
+                            width: 30vw;
+                            margin: 220px auto;
+                            padding: 30px;
+}
+
+h1 {
+                            text-align: center;
+                            margin-bottom: 10px;
+}
+
+form {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 0 auto;
+}
+
+#link-login {
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: crimson;
+    
+}
+#link-casdastro {
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: #0000FF;
+
+}
+
+#div-login {
+                            margin: auto;
+                            background-color: #0000FF;
+                            margin-bottom: 10px;
+                            padding: 10px;
+}
+
+#div-cadastro {
+                            margin: auto;
+                            background-color: white;
+                            padding: 10px;
+}
+
+
+
 @media screen and (max-width: 768px){
     
     .cadastro {
@@ -43,9 +91,9 @@
     }
 
     #div-cadastro {
-        margin: auto;
-        background-color: white;
-        padding: 10px;
+                                margin: auto;
+                                background-color: white;
+                                padding: 10px;
 
     }
 
