@@ -38,8 +38,22 @@
     <div class="cadastro">
         <h1>Login</h1> 
         <form action="/cadastro" method="post">
-            <input type="email" name="email" placeholder="Endereço de e-mail"><br>
-            <input type="password" name="senha" placeholder="Senha"><br>
+
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail">
+            </section><br><br>
+
+            <section>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" class="input" placeholder="Senha">
+            </section><br>
+
+            <section id="check-lembrar">
+                <input type="checkbox" name="Lembrar-me" id="lembrar-me">
+                <label for="lembrar-me">Lembrar-me</label>
+            </section>
+
             <div id="div-login"><a href="login.html" id="link-login">Login</a></div>
             <div id="div-cadastro"><a href="cadastro.html" id="link-casdastro">Cadastre-se</a></div>
           </form>
