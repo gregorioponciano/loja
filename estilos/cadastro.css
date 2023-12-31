@@ -107,12 +107,10 @@ section {
     }
 
     .input{
-        outline: none;
-        margin-left: 5px;
-        padding: 5px;
-}
-
-    
+                                outline: none;
+                                margin-left: 5px;
+                                padding: 5px;
+    }
 
     #link-cadastro {
                                 text-decoration: none;
