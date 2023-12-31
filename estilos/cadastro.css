@@ -25,11 +25,12 @@ form {
 .input{
                                     outline: none;
                                     margin-left: 5px;
-                                    padding: 5px;
+                                    padding: 10px;
 }
 
 label {
                                     padding: 10px;
+                                    
 }
 
 
@@ -93,6 +94,12 @@ section {
     label {
                                 padding: 5px;
     }
+
+    .input{
+        outline: none;
+        margin-left: 5px;
+        padding: 5px;
+}
 
     
 
