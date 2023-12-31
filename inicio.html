@@ -46,23 +46,34 @@
         <button class="button-content"><a href="https://wa.me/5514991761256?text=Ol%C3%A1%2C+Td+bem%3F+Como+posso+ajudar%3F" class="button-what-content" target="_blank">Contrate agora</a></button>
     </div>
 
-    <div class="hora-atendimento">
+    <div class="recado">
         <form action="/enviar" method="post">
-            <caption>Fale conosco</caption><br>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome"><br><br>
+            <caption><h3>Fale conosco</h3></caption><br>
+
+            <section>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </section><br>
         
-            <label for="empresa">Empresa:</label>
-            <input type="text" id="empresa" name="empresa"><br><br>
+            <section>
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+            </section><br>
         
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </section><br>
         
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone"><br><br>
+            <section>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </section><br>
         
-            <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" name="cidade">
+            <section>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+            </section>
         
             <label for="pais"></label>
             <select id="pais" name="pais">
@@ -72,7 +83,7 @@
             </select><br><br>
         
             <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="4" ></textarea><br><br>
+            <textarea id="mensagem" name="mensagem" rows="4"  placeholder="Digite..."></textarea><br><br>
         
             <input type="submit" value="Enviar" class="enviar">
           </form>
