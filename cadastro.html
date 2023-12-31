@@ -38,12 +38,38 @@
     <div class="cadastro">
         <h1>Cadastre-se</h1>
         <form action="/cadastro" method="post">
-            <input type="text" name="nome" placeholder="Nome completo"><br>
-            <input type="email" name="email" placeholder="Endereço de e-mail"><br>
-            <input type="password" name="senha" placeholder="Senha"><br>
-            <input type="password" name="senha" placeholder="Confirme a Senha"><br>
-            <input type="date" name="data_nascimento" placeholder="Data de nascimento"><br>
-            <input type="number" name="cpf" placeholder="CPF"><br>
+
+            <section>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"  class="input" placeholder="Nome">
+            </section><br>
+
+            <section>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="nome" id="sobrenome" class="input" placeholder="Sobrenome">
+            </section><br>
+
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail">
+            </section><br>
+
+            <section>
+                <label for="conf-email">Confirmar Email:</label>
+                <input type="email" name="email" id="conf-email" class="input" placeholder="Endereço de e-mail">
+            </section><br>
+
+            <section>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" class="input" placeholder="Senha">
+            </section><br>
+
+            <section>
+                <label for="conf-senha">Confirmar Senha:</label>
+                <input type="password" name="senha" id="conf-senha" class="input" placeholder="Senha">
+            </section><br>
+
+
             <div id="div-cadastro"><a href="cadastro.html" id="link-cadastro">Cadastre-se</a></div>
             <div id="div-login"><a href="login.html" id="link-login">Login</a></div>
           </form>
