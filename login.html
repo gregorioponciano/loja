@@ -37,16 +37,16 @@
 
     <div class="cadastro">
         <h1>Login</h1> 
-        <form action="/cadastro" method="post">
+        <form action="cadastro.php" method="post" autocomplete="on">
 
             <section>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail">
+                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail" required minlength="10" maxlength="50" autocomplete="email">
             </section><br><br>
 
             <section>
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" class="input" placeholder="Senha">
+                <input type="password" name="senha" id="senha" class="input" placeholder="Senha" required minlength="8" maxlength="16" autocomplete="current-password">
             </section><br>
 
             <section id="check-lembrar">
@@ -54,9 +54,13 @@
                 <label for="lembrar-me">Lembrar-me</label>
             </section>
 
-            <div id="div-login"><a href="login.html" id="link-login">Login</a></div>
+            
+
+            <div id="div-login"><a href="login.html" id="link-login"><input type="submit" value="Login"></a></div>
             <div id="div-cadastro"><a href="cadastro.html" id="link-casdastro">Cadastre-se</a></div>
           </form>
+
+
     </div>
 
     <div class="redes" id="redes">

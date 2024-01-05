@@ -37,40 +37,40 @@
 
     <div class="cadastro">
         <h1>Cadastre-se</h1>
-        <form action="/cadastro" method="post">
+        <form action="cadastro.php" method="post">
 
             <section>
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome"  class="input" placeholder="Nome">
+                <input type="text" name="nome" id="nome"  class="input" placeholder="Nome" required>
             </section><br>
 
             <section>
                 <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="nome" id="sobrenome" class="input" placeholder="Sobrenome">
+                <input type="text" name="nome" id="sobrenome" class="input" placeholder="Sobrenome" required>
             </section><br>
 
             <section>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail">
+                <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail" required minlength="10" maxlength="50" autocomplete="email">
             </section><br>
 
             <section>
                 <label for="conf-email">Confirmar Email:</label>
-                <input type="email" name="email" id="conf-email" class="input" placeholder="Endereço de e-mail">
+                <input type="email" name="email" id="conf-email" class="input" placeholder="Endereço de e-mail" required minlength="10" maxlength="50" autocomplete="email">
             </section><br>
 
             <section>
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" class="input" placeholder="Senha">
+                <input type="password" name="senha" id="senha" class="input" placeholder="Senha" required minlength="8" maxlength="16">
             </section><br>
 
             <section>
                 <label for="conf-senha">Confirmar Senha:</label>
-                <input type="password" name="senha" id="conf-senha" class="input" placeholder="Senha">
+                <input type="password" name="senha" id="conf-senha" class="input" placeholder="Senha" required minlength="8" maxlength="16">
             </section><br>
 
 
-            <div id="div-cadastro"><a href="cadastro.html" id="link-cadastro">Cadastre-se</a></div>
+            <div id="div-cadastro"><a href="cadastro.html" id="link-cadastro"><input type="submit" value="Cadastre-se"></a></div>
             <div id="div-login"><a href="login.html" id="link-login">Login</a></div>
           </form>
     </div>
