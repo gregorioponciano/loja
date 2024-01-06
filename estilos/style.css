@@ -158,7 +158,7 @@ footer {
                                 animation-duration: 1s;
                                 margin-left: -100vw;
                             
-    }}
+    }
 
             /*redes sociais contatos*/
     .redes {
@@ -179,7 +179,7 @@ footer {
                                 display: block;
                                 margin: auto;
             
-    }
+    }}
 
 
 @keyframes showSidebar {
