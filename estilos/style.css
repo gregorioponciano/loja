@@ -52,7 +52,7 @@ body {
 }
 
 .navigation_header { 
-                                gap: 3em;       /* espaço entre os links */
+                                gap: 3em;       /* espaço entre os links */ 
 }
 
 .navigation_header > a {
