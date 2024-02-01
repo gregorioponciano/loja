@@ -87,8 +87,10 @@ body {
             /*redes sociais contatos*/
 
 .redes {
-                                background-color: rgba(0, 0, 0, 0.5);
+                                background-color: #391681;
                                 width: 51vw;
+                                display: flex;
+                                margin: auto;
 }
 
 
@@ -98,28 +100,27 @@ body {
 }
 
 .redes-img {
-                                width: 24px;
+                                width: 34px;
                                 padding: 5px;
-                                text-align: center;
-                                display: block;
                                 margin: auto;
                                 cursor: pointer;
                                 filter: contrast(0%);
                                 transition: 0.3s linear;
+                                box-sizing: border-box;
 }
 
 .redes-img:hover {
                                 filter: contrast(100%);
-                                width: 20px;
+                                width: 30px;
 }
 
 .termos{
-    text-align: center;
-    margin: 50px;
+                                text-align: center;
+                                margin: 50px;
 }
 
 .a-termos {
-    color: white;
+                                color: white;
 }
 
 footer {
@@ -173,7 +174,7 @@ footer {
     }
 
     .redes-img {
-                                width: 22px;
+                                width: 32px;
                                 padding: 5px;
                                 text-align: center;
                                 display: block;
@@ -184,6 +185,6 @@ footer {
 
 @keyframes showSidebar {
                 from {margin-left: -100vw;}
-                top {margin-left: -10vw;}  
+                to {margin-left: -10vw;}  
             }
 

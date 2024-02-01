@@ -6,10 +6,10 @@ body {
 
 
 .cadastro {
-                            background-image: linear-gradient(to left, #FF0000, #0000FF);
+                            background-image: linear-gradient(to left, #9E0D5D, #391681);
                             border-radius: 10px;
                             box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
-                            width: 30vw;
+                            width: 45vw;
                             margin: 220px auto;
                             padding: 30px;
 }
@@ -19,13 +19,6 @@ h1 {
                             margin-bottom: 10px;
 }
 
-form {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            margin: 0 auto;
-}
 
 .input{
                             outline: none;
@@ -44,13 +37,24 @@ label {
 section {
                         
                             display: flex;
+                            flex-direction: column;
+                            align-items: center;
 }
 
-#check-lembrar {
-                            flex-direction: row;
-                            margin-bottom: 20px;
+
+#div-login {
+                            margin: auto;
+                            background-color: #0000FF;
+                            border-radius: 10px;
+                            margin-bottom: 10px;
+                            padding: 10px;
+                            width: 18vw;
 }
 
+.input-login {
+                            border: none;
+                            background-color: transparent;
+}
 
 #link-login {
                             text-decoration: none;
@@ -59,8 +63,8 @@ section {
     
 }
 
-#link-login:hover {
-                            color: rgb(5, 5, 5);
+.input-login:hover {
+                            color: rgb(37, 219, 67);
 }
 
 #link-casdastro {
@@ -68,14 +72,6 @@ section {
                             font-weight: bold;
                             color: #0000FF;
 
-}
-
-#div-login {
-                            margin: auto;
-                            background-color: #0000FF;
-                            border-radius: 10px;
-                            margin-bottom: 10px;
-                            padding: 10px;
 }
 
 #div-cadastro {

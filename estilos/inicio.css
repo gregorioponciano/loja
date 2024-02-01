@@ -59,7 +59,8 @@ form {
 
 section {
                                 display: flex;
-                                justify-content: center;
+                                flex-direction: column;
+                                align-items: center;
 }
 
 label {
@@ -78,11 +79,20 @@ input {
 }
 
 .enviar{                          
-                                background-color: blue;
+                                background-color: #A60E64;
                                 color: white;
                                 padding: 5px;
+                                width: 18vw;
                                
 }
+
+.enviar:hover {
+                                background-color:   #391681;
+                                color: rgb(37, 219, 67);
+                                cursor: pointer;
+}
+
+
 
 .button-what-content{
                                 color: black;
@@ -151,6 +161,10 @@ input {
 
         input {
                                         width: 70vw;
+        }
+
+        .enviar {
+                                        width: 30vw;
         }
 
 }
