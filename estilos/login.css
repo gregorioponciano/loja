@@ -53,43 +53,45 @@ section {
 
 }
 
+.input-login {
+                                color: rgb(37, 219, 67);
+                                background-color: transparent;
+                                border: none;
+                                font-weight: bold;
+                                cursor: pointer;
+                                text-align: center;
 
 
-.input-cadastro:hover {
+}
+
+.input-login:hover {
                                     color: black;
 }
 
-#link-login {
-                                    text-decoration: none;
-                                    font-weight: bold;
-                                    color: #0000FF;
-
-}
-
-#div-cadastro {
+#div-login {
                                     margin: auto;
                                     background-color: #0000FF;
+                                    width: 10%;
+                                    height: 20px;
+                                    text-align: center;
+                                    margin: auto;
                                     border-radius: 10px;
                                     padding: 10px;
                                     margin-bottom: 10px;
                                     color: transparent;
 }
 
-.input-cadastro {
-                                color: rgb(37, 219, 67);
-                                background-color: transparent;
-                                border: none;
-                                font-weight: bold;
-                                cursor: pointer;
-
-}
-
-
-#div-login {
+#div-cadastro {
                                     margin: auto;
                                     background-color: white;
                                     border-radius: 10px;
                                     padding: 10px;
+}
+
+#link-cadastro {
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                    color: blue;
 }
 
 
@@ -105,5 +107,8 @@ section {
                                 width: 40vw;
     }
 
+    #div-login {
+                        width: 20%;
 
-}
+
+}}
