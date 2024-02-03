@@ -59,10 +59,10 @@
 
             <div id="div-cadastro">
                 <a href="cadastro.html" id="link-cadastro">
-                    <input type="submit" value="Login" class="input-cadastro" onclick="logar()"></a>
+                    <input type="submit" value="Login" class="input-cadastro" onclick="logar(); return false"></a>  /*return false ele para de esperar a validaçaodo formulario e faz oque a gente mandar ou seja o location.href no js */
             </div>
             <div id="div-login">
-                <a href="cadastro.html  " id="link-login">Cadastre-se</a>
+                <a href="cadastro.html  " id="link-login">Cadastre-se</a>   
             </div>
           </form>
     </div>
