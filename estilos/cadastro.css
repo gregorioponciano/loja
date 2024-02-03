@@ -8,7 +8,7 @@ body {
                                     background-image: linear-gradient(to left, #9E0D5D, #391681);
                                     border-radius: 10px;
                                     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
-                                    width: 45vw;
+                                    width: 47vw;
                                     margin: 110px auto;
                                     padding: 30px;
 }
@@ -38,6 +38,17 @@ label {
                                     padding: 5px;
 
                                     
+}
+
+#section-concordo {
+                                    display: flex;
+                                    flex-direction: row;
+}
+
+#section-notificar-email {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 10px;
 }
 
 section {
