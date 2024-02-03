@@ -1,86 +1,96 @@
 @charset "UTF-8";
 
 body {
-                            color: aliceblue;
+                                    color: aliceblue;
 }
 
-
 .cadastro {
-                            background-image: linear-gradient(to left, #9E0D5D, #391681);
-                            border-radius: 10px;
-                            box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
-                            width: 45vw;
-                            margin: 220px auto;
-                            padding: 30px;
+                                    background-image: linear-gradient(to left, #9E0D5D, #391681);
+                                    border-radius: 10px;
+                                    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
+                                    width: 45vw;
+                                    margin: 122px auto;
+                                    padding: 30px;
 }
 
 h1 {
-                            text-align: center;
-                            margin-bottom: 10px;
+                                    text-align: center;
+                                    margin-bottom: 10px;
 }
 
+form {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 0 auto;
+}
 
 .input{
-                            outline: none;
-                            margin-left: 5px;
-                            padding: 10px;
+                                    outline: none;
+                                    margin-left: 5px;
+                                    padding: 10px;
+                                    margin: auto;
+                                    width: 20vw;
 }
 
 label {
-                            padding: 10px;
+                                    padding: 5px;
+
+                                    
 }
 
-#lembrar-me {
-                            margin-right: 5px;
+.section-lembrar {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 10px;
 }
 
 section {
-                        
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
+                                    display: flex;
+                                    flex-direction: column; 
+                                    align-items: center;
+
 }
 
 
-#div-login {
-                            margin: auto;
-                            background-color: #0000FF;
-                            border-radius: 10px;
-                            margin-bottom: 10px;
-                            padding: 10px;
-                            width: 18vw;
-}
 
-.input-login {
-                            border: none;
-                            background-color: transparent;
+.input-cadastro:hover {
+                                    color: black;
 }
 
 #link-login {
-                            text-decoration: none;
-                            font-weight: bold;
-                            color: crimson;
-    
-}
-
-.input-login:hover {
-                            color: rgb(37, 219, 67);
-}
-
-#link-casdastro {
-                            text-decoration: none;
-                            font-weight: bold;
-                            color: #0000FF;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    color: #0000FF;
 
 }
 
 #div-cadastro {
-                            margin: auto;
-                            background-color: white;
-                            border-radius: 10px;
-                            padding: 10px;
+                                    margin: auto;
+                                    background-color: #0000FF;
+                                    border-radius: 10px;
+                                    padding: 10px;
+                                    margin-bottom: 10px;
+                                    color: transparent;
 }
 
+.input-cadastro {
+                                color: rgb(37, 219, 67);
+                                background-color: transparent;
+                                border: none;
+                                font-weight: bold;
+                                cursor: pointer;
+
+}
+
+
+#div-login {
+                                    margin: auto;
+                                    background-color: white;
+                                    border-radius: 10px;
+                                    padding: 10px;
+}
 
 
 @media screen and (max-width: 768px){
@@ -90,38 +100,10 @@ section {
                                 margin: 30vw auto;
                                 padding: 30px;
     }
-    
-    form {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                margin: 0 auto;
-    }
-    
-    section {                   flex-direction: column; 
-                                align-items: center;
 
+    .input {
+                                width: 40vw;
     }
-
-    #check-lembrar {
-                                flex-direction: row;
-                                margin-bottom: 20px;
-    }
-
-    #link-login {
-                                text-decoration: none;
-                                font-weight: bold;
-                                color: crimson;
-                                
-    }
-    #link-casdastro {
-                                text-decoration: none;
-                                font-weight: bold;
-                                color: #0000FF;
-        
-    }
-
 
 
 }
