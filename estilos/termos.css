@@ -1,39 +1,39 @@
 @charset "UTF-8";
 
 section{ 
-                            width: 50vw;
+                            width: 80vw;
                             margin: auto;
-                            background-color: #0000005b;
+                            background-color: var(--color-menu);
+                            border-radius: 10px;
+                            margin-bottom: 50px;
+}
+
+.fundo {
+                            background-color: var(--color-menu);
+                            border-radius: 10px;
+                            height: 20px;
 
 }
 
-.pergaminho {
-                            background-image: url(../imagens/pergaminho.png);
-                            background-size: cover;
-                            background-size: 50vw;
-                            background-repeat: no-repeat;
-                            height: 180px;
-                            margin: auto;
-                            display: block;
-}
-
-#id-pergaminho {
-                            margin-bottom: -70px;
+#fundo {
                             margin-top: 100px;
 }
 
 aside {             
-                            background-color: #FFBD60;
-                            width: 30vw;
+                            background-color: #ffffff;
+                            width: 50vw;
                             margin: auto;
+                            border-radius: 10px;
+                            box-shadow: 0px 20px 20px 4px black;
+                            padding: 10px;
 }
 
 strong {
-                            color: var(--color-menu-link);
+                            font-size: 13px;
 }
 
-p{    
-                            width: 25vw;
+.p-section{    
+                            width: 30vw;
                             margin: auto;
                             text-align: justify;
                             font-size: 13px;
@@ -43,97 +43,32 @@ p{
 
 
 
-             /*900*/
-@media screen and (max-width: 992px){
 
-    section{ 
-                            width: 80vw;
-                            margin: auto;
-                            background-color: #0000005b;
-        
-    }
-
-    .pergaminho {
-                            background-image: url(../imagens/pergaminho.png);
-                            background-size: cover;
-                            background-size: 80vw;
-                            background-repeat: no-repeat;
-                            height: 150px;
-                            margin: auto;
-                            display: block;
-    }
-
-    #id-pergaminho {
-                            margin-bottom: -50px;
-                            margin-top: 100px;
-    }
-
-    aside {             
-                            background-color: #FFBD60;
-                            width: 50vw;
-                            margin: auto;
-        
-    }
-
-    strong {
-                            color: var(--color-menu-link);
-    }
-
-    p{    
-                            width: 45vw;
-                            margin: auto;
-                            text-align: justify;
-                            font-size: 13px;
-                            padding: 10px 5px 10px 5px;
-        
-
-    }
-
-}
-        /*mobile*/
 
 @media screen and (max-width: 768px){
 
     section{ 
-                            width: 100vw;
-                            margin-top: 100px;
-                            background-color: #0000005b;
-                            
-    }
+            width: 88vw;
+            border-radius: 10px;
+        }
 
-    .pergaminho {
-                            background-image: url(../imagens/pergaminho.png);
-                            background-size: cover;
-                            background-size: 100vw;
-                            background-repeat: no-repeat;
-                            height: 100px;
-                            margin: auto;
-                            display: block;
-    }
+    .fundo {
+                height: 20px;
+                width: 88vw;
 
-    #id-pergaminho {
-                            margin-bottom: -50px;
-    }
+        }
 
     aside {             
-                            background-color: #FFBD60;
-                            width: 70vw;
-                            margin: auto;
-                            
-    }
 
-    strong {
-                            color: var(--color-menu-link);
-    }
+                    width: 70vw;    
+            }
 
-    p{    
-                            width: 65vw;
-                            margin: auto;
-                            text-align: justify;
-                            font-size: 13px;
-                            padding: 10px 5px 10px 5px;
-                            
-                
-    }
+            .p-section{    
+                width: 66vw;
+                margin: auto;
+                text-align: justify;
+                font-size: 13px;
+                padding: 10px 5px 10px 5px;
+                color: black;
 }
-            
+}       
