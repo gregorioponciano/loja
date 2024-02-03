@@ -26,18 +26,30 @@ form {
                                     margin: 0 auto;
 }
 
-.input{
+.input {
                                     outline: none;
                                     margin-left: 5px;
                                     padding: 10px;
                                     margin: auto;
-                                    width: 20vw;
 }
 
 label {
                                     padding: 5px;
 
                                     
+}
+
+#nome {
+                                    width: 15vw;
+}
+
+#senha {
+                                    width: 13vw;
+}
+
+.mostrar-senha {
+                                    display: flex;
+
 }
 
 .section-lembrar {
@@ -103,12 +115,23 @@ section {
                                 padding: 30px;
     }
 
+    #nome {
+                                width: 30vw;
+    }
+
+#senha {
+                                width:25vw;
+    }
+
+
     .input {
                                 width: 40vw;
     }
 
     #div-login {
                         width: 20%;
+
+
 
 
 }}

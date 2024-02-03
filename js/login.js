@@ -10,3 +10,15 @@ if(nome == "admin" && senha == "admin123") {
     alert('Usuario ou senha incorretos');
 }
 }
+
+
+
+function mostrarSenha() {
+  var inputSenha = document.getElementById("senha");
+  if (inputSenha.type === "password") {
+
+    inputSenha.type = "text";
+  } else {
+    inputSenha.type = "password";
+  }
+}

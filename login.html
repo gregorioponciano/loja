@@ -47,7 +47,10 @@
 
             <section>
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" class="input" placeholder="Senha" required minlength="8" maxlength="16">
+                <div class="mostrar-senha">
+                    <input type="password" name="senha" id="senha" class="input" placeholder="Senha" required minlength="8" maxlength="16">
+                    <button onclick="mostrarSenha()">👀</button>
+                </div>
             </section><br>
 
             <section class="section-lembrar">
