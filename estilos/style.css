@@ -23,6 +23,11 @@ body {
                                 width: 100vw;
 }
 
+.h1-logado {
+
+                                margin: 100px auto;
+}
+
 .header {
                                 position: fixed; 
                                 top: -1px;
