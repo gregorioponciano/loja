@@ -1,15 +1,24 @@
-const modal = document.getElementById('modal');
-const abrirModal = document.getElementById('abrir-modal');
-const fecharModal = document.getElementById('fechar-modal');
+const openModalButton = document.getElementById('open-modal');
+const modal = document.querySelector('.modal');
+const closeButton = document.querySelector('.close-button');
 
-abrirModal.addEventListener('click', () => {
-  modal.classList.remove('escondido');
-  modal.style.opacity = 1;
-  modal.style.pointerEvents = 'auto';
-});
+// Função para abrir o modal
+function openModal() {
+    modal.classList.add('active');
+}
 
-fecharModal.addEventListener('click', () => {
-  modal.classList.add('escondido');
-  modal.style.opacity = 0;
-  modal.style.pointerEvents = 'none';
+// Função para fechar o modal
+function closeModal() {
+    modal.classList.remove('active');
+}
+
+// Adicionar eventos de click aos botões
+openModalButton.addEventListener('click', openModal);
+closeButton.addEventListener('click', closeModal);
+
+// Fechar o modal ao clicar fora da área de conteúdo
+modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        closeModal();
+    }
 });
