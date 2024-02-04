@@ -1,5 +1,3 @@
-
-
 function logar() {
 
   var nome = document.getElementById('nome').value //value é para pegar oque foi digitado dentro do input 
@@ -7,7 +5,7 @@ function logar() {
 
 if(nome == "admin" && senha == "admin123") {
     alert(`susseso`);
-    location.href = "inicio-login.html";  // location.href procura uma pagina html que vai ser redirecionada
+    location.href = "logado.html";  // location.href procura uma pagina html que vai ser redirecionada
 }else{
     alert('Usuario ou senha incorretos');
 }
