@@ -79,6 +79,8 @@ h1 {                            color: var(--color-h1-content);
                       width: 80%;
                       max-width: 500px;
                       border-radius: 10px;
+                      text-align: center;
+
 }
       
 #fechar-modal {
@@ -87,8 +89,21 @@ h1 {                            color: var(--color-h1-content);
                       border: 1px solid #ccc;
                       cursor: pointer;
 }
-      
-            /*CONTATO Whats*/
+
+                /*contato whats*/
+.button-what-content{
+                                color: black;
+                                text-decoration: none;         
+}
+
+.button-content {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+
+}
+        /*formulario-deixar contato*/
 .recado{
                                 width: 90vw;                               
                                 background-color: rgb(255, 255, 255);
@@ -136,18 +151,6 @@ input {
                                 cursor: pointer;
 }
 
-
-
-.button-what-content{
-                                color: black;
-                                text-decoration: none;         
-}
-
-.button-content {
-                                width: 100px;
-                                height: 50px;
-                                border-radius: 8px;
-}
 
 @media screen and (max-width: 768px){
 
