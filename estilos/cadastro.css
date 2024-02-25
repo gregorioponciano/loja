@@ -97,6 +97,37 @@ section {
                                     padding: 10px;
 }
 
+#ler-mais-termos {
+                                    color: white;
+                                    display: inline;
+}
+
+#ler-menos-termos {
+                                    color: white;
+                                    display: none;
+                                   
+}
+
+#p-ler-mais-termos {
+                                  
+                                   display: none;
+}
+
+#mais-noticias {
+    color: white;
+}
+
+#menos-noticias {
+    color: white;
+    display: none;
+   
+}
+
+#p-noticias {
+  
+   display: none;
+}
+
 
 @media screen and (max-width: 768px){
     

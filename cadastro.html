@@ -71,12 +71,20 @@
             
             <section id="section-concordo">
                 <input type="checkbox" class="concordo" id="concordo">
-                <label for="concordo">Eu concordo com os termos de uso de cookies e com a nossa política de privacidade.</label> 
+                <label for="concordo">Eu concordo com os termos 
+                    <a href="#" id="ler-mais-termos" onclick="maisTermos()">Ler mais...</a>
+                         <p id="p-ler-mais-termos">de uso de cookies e com a nossa política de privacidade.</p>
+                    <a href="#" id="ler-menos-termos" onclick="menosTermos()">Ler menos</a>
+                </label> 
         </section>
 
             <section id="section-notificar-email">
                 <input type="checkbox" checked class="notificar" id="notificar">
-                <label for="notificar">Notificações no email, receba notícias, ofertas especiais, pesquisas de feedback e convites de testes.</label> 
+                <label for="notificar">Notificações no email, 
+                    <a href="#" id="mais-noticias">Ler mais...</a>
+                         <p id="p-noticias" onclick="maisNoticias()">receba notícias, ofertas especiais, pesquisas de feedback e convites de testes.</p> 
+                    <a href="#" id="menos-noticias" onclick="menosNoticias">Ler menos</a>
+                </label> 
         </section>
 
             <div id="div-cadastro">
@@ -108,6 +116,7 @@
      </footer>
 
     <script src="./js/menubar.js"></script>
+    <script src="cadastro.js"></script>
 
     </body>
     </html>
