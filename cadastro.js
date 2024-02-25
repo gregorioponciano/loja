@@ -16,6 +16,8 @@ function menosTermos() {
     conteudo.style.display = 'none'
 }
 
+/*
+
 const menosnoticias = document.querySelector('#menos-noticias')
 const maisnoticias = document.querySelector('#mais-noticias')
 const conteudonoticias = document.querySelector('#p-noticias')
@@ -34,6 +36,8 @@ function menosNoticias() {
     menosnoticias.style.display = 'none'
     maisnoticias.style.display = 'block'
     conteudonoticias.style.display = 'none'
-}
+} */
+
+
 
 

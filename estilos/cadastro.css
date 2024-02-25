@@ -113,21 +113,9 @@ section {
                                    display: none;
 }
 
-#mais-noticias {
+#vermais {
     color: white;
 }
-
-#menos-noticias {
-    color: white;
-    display: none;
-   
-}
-
-#p-noticias {
-  
-   display: none;
-}
-
 
 @media screen and (max-width: 768px){
     
