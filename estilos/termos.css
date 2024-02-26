@@ -45,6 +45,19 @@ strong {
                             color: black;
 }
 
+ul  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+li {
+
+    color: white;
+    text-align: center;
+    margin: 1px;
+    border-radius: 2px;
+}
+
 
 
 
@@ -75,4 +88,32 @@ strong {
                 padding: 10px 5px 10px 5px;
                 color: black;
 }
+
+ul {
+                display: flex;
+                flex-direction: column;
+                width: 200px;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+}
+
+li {
+
+                color: black;
+                width: 100%;
+                text-align: center;
+                margin: 1px;
+                border-radius: 2px;
+                box-sizing: border-box;
+                cursor: pointer;
+}
+
+li:hover {
+                padding: 5px;
+                background-color: #391681;
+                color: #888888;
+                font-weight: bold;
+}
+
 }       
