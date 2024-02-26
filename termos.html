@@ -34,15 +34,60 @@
     </div>
 </div>
 
-<section>
+<section id="section1" class="section">
     <div class="content">
-        <div class="fundo" id="fundo"></div>
+        <div class="fundo"></div>
         <aside>
             <p class="p-section"><strong>Termos de Serviço:</strong> Este site é disponibilizado para seu uso pessoal e não comercial. Você concorda em não utilizar este site para qualquer finalidade ilegal ou não autorizada.</p>
+        </aside>
+        <div class="fundo"></div>
+    </div>
+</section>
+
+<section id="section2" class="section">
+    <div class="content">
+        <div class="fundo" class="fundo"></div>
+        <aside>
             <p class="p-section"><strong>Política de Privacidade:</strong> Nossa Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos os dados dos usuários. Estamos comprometidos em proteger sua privacidade e garantir a confidencialidade das informações fornecidas.</p>
+        </aside>
+        <div class="fundo"></div>
+    </div>
+</section>
+
+<section id="section3" class="section">
+    <div class="content">
+        <div class="fundo" class="fundo"></div>
+        <aside>
             <p class="p-section"><strong>Política de Cookies:</strong> Utilizamos cookies para melhorar a experiência do usuário. Ao utilizar nosso site, você concorda com o uso de cookies de acordo com nossa Política de Cookies.</p>
+        </aside>
+        <div class="fundo"></div>
+    </div>
+</section>
+
+<section id="section4" class="section">
+    <div class="content">
+        <div class="fundo" class="fundo"></div>
+        <aside>
             <p class="p-section"><strong>Direitos Autorais:</strong> Todo o conteúdo publicado neste site é de propriedade de [Nome do seu site] ou licenciado para uso. A reprodução ou uso não autorizado do conteúdo deste site é proibida.</p>
+        </aside>
+        <div class="fundo"></div>
+    </div>
+</section>
+
+<section id="section5" class="section">
+    <div class="content">
+        <div class="fundo" class="fundo"></div>
+        <aside>
             <p class="p-section"><strong>Devolução/Reembolso:</strong> Se não estiver satisfeito com sua compra, consulte nosso para obter informações sobre processos de devolução e reembolso.</p>
+        </aside>
+        <div class="fundo"></div>
+    </div>
+</section>
+
+<section id="section6" class="section">
+    <div class="content">
+        <div class="fundo" class="fundo"></div>
+        <aside>
             <p class="p-section"><strong>Termos e Condições de Venda:</strong> Os termos de venda de produtos ou serviços estão detalhados em nossa página de Termos e Condições de Venda.</p>
         </aside>
         <div class="fundo"></div>
@@ -51,12 +96,12 @@
 
 <div class="paginas">
     <ul>
-        <li>Termos de Serviço</li>
-        <li>Política de Privacidade</li>
-        <li>Política de Cookies</li>
-        <li>Direitos Autorais</li>
-        <li>Devolução/Reembolso</li>
-        <li>Condições de Venda</li>
+        <li onclick="toggleContent('section1')">Termos de Serviço</li>
+        <li onclick="toggleContent('section2')">Política de Privacidade</li>
+        <li onclick="toggleContent('section3')">Política de Cookies</li>
+        <li onclick="toggleContent('section4')">Direitos Autorais</li>
+        <li onclick="toggleContent('section5')">Devolução/Reembolso</li>
+        <li onclick="toggleContent('section6')">Condições de Venda</li>
     </ul>
 </div>
 
@@ -80,6 +125,7 @@
  </footer>
 
 <script src="./js/menubar.js"></script>
+<script src="js/termos.js"></script>
 
 </body>
 </html>
