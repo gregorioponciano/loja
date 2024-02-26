@@ -45,10 +45,18 @@ strong {
                             color: black;
 }
 
+.paginas {
+                margin: auto;
+}
+
 ul  {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 li {
 
@@ -58,7 +66,12 @@ li {
     border-radius: 2px;
 }
 
-
+li:hover {
+    padding: 5px;
+    background-color: #391681;
+    color: #888888;
+    font-weight: bold;
+}
 
 
 
