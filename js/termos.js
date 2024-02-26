@@ -7,7 +7,7 @@ function toggleContent(id) {
         }
     }
     if (content.style.display === 'block') {
-        content.style.display = 'block';
+        content.style.display = 'block'; // deixa o conteudo aparendo mesmo quando clicar dinovo nele
     } else {
         content.style.display = 'block';
     }
