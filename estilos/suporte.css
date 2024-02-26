@@ -23,7 +23,14 @@ h1 {
 
 .link-section {
                                 text-decoration: none;
-                                color: black;
+                                color: #D628C8;
+}
+
+.content {
+                                text-align: center;
+                                width: 80%;
+                                margin: auto;
+                                display: none;
 }
 
 .link-section:hover {
