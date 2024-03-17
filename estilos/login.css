@@ -52,6 +52,11 @@ label {
 
 }
 
+#a-esqueceu-senha {
+                                    color: deepskyblue;
+                                    text-decoration: none;
+}
+
 .section-lembrar {
                                     display: flex;
                                     flex-direction: row;
