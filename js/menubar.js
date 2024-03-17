@@ -36,9 +36,3 @@ window.addEventListener('resize', function(event) {
         toggleSidebar();
     }
 });
-
-
-
-
-
-
