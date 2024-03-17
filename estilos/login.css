@@ -4,6 +4,10 @@ body {
                                     color: aliceblue;
 }
 
+.strong {
+                            margin-top: 122px auto;
+}
+
 .cadastro {
                                     background-image: linear-gradient(to left, #9E0D5D, #391681);
                                     border-radius: 10px;
