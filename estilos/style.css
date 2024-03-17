@@ -29,11 +29,11 @@ body {
 }
 
 .header {
-                                position: fixed; 
-                                top: -1px;
-                                max-width: 90%;
-                                width: 80%;
-                                z-index: 2;   /* sao camadas igual no phootoshop (menubar abre por cima do texto) */
+                                background-color: var(--color-menu);
+                                box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.555);
+                                height: 3.5em;
+                                justify-content: space-between;
+                                padding: 0 10%;
 }
 
 .btn_icon_header { 
@@ -67,15 +67,6 @@ body {
                                 font-weight: bold;
 }
 
-
-
-.header {
-                                background-color: var(--color-menu);
-                                box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.555);
-                                height: 3.5em;
-                                justify-content: space-between;
-                                padding: 0 10%;
-}
 
 #active {
                                 background-color: var(--color-a-hover-menu);
