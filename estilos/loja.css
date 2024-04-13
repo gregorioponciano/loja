@@ -38,7 +38,7 @@
 }
 
 h1 {
-                                color: var(--color-h1-content);
+                                color: white;
                                 text-align: center;
 
                                 
@@ -47,22 +47,22 @@ h1 {
 .link-free {
                                 color: #000000;
                                 text-decoration: none;
-                                margin: 15px;
-}
-
-.paragrafo-free {
-                                background-color: #302929;
-                                border: 1px solid black;
-                                padding: 20px;
-                                width: 20vw;
-                                margin: 10px auto;
-                                border-radius: 3px;
-                                
+                                font-size: 20px;
 }
 
 .link-free:hover {
                                 color: rgb(255, 255, 255);
                                 text-decoration: none;
+}
+
+.paragrafo-free {
+                                background-color: #302929;
+                                border: 1px solid black;
+                                padding: 10px;
+                                width: 285px;
+                                margin: 10px auto;
+                                border-radius: 3px;
+                                
 }
 
 .meu-rosto {
@@ -150,13 +150,14 @@ h1 {
 }
 
         .link-free {
-                                font-size: 20px;
                                 text-decoration: none;
+                                text-align: center;
 }
 
         .paragrafo-free {
 
-                                width: 40vw;
+                                width: 200px;
+                                text-align: center;
 
                 
         }
