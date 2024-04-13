@@ -48,14 +48,13 @@ h1 {
 }
 
 .link-free {
-                                color: white;
+                                color: #000000;
                                 text-decoration: none;
-                                background-color: blue;
                                 margin: 15px;
 }
 
 .paragrafo-free {
-                                background-color: blue;
+                                background-color: #302929;
                                 padding: 10px;
                                 width: 25vw;
                                 margin: 15px auto;
@@ -64,7 +63,7 @@ h1 {
 }
 
 .link-free:hover {
-                                color: red;
+                                color: rgb(255, 255, 255);
                                 text-decoration: none;
 }
 
@@ -84,9 +83,6 @@ h1 {
 }
  
 
-p {
-                                color: white;
-}
 
 .paginas {
                                 margin: auto;
@@ -100,6 +96,23 @@ p {
                                 padding: 5px 5px;
                                 margin: 3px;
                                 border-radius: 7px;
+                                border: 1px solid rgba(0, 0, 0, 0.302);
+}
+
+.li-paginas:hover {
+                                transform: scale(1.20);
+                                transition:  .6s;
+                                filter: brightness(2.0);
+                                     
+}
+
+.p-li-paginas {
+                                cursor: pointer;
+                                color: black;
+}
+
+.p-li-paginas:hover {
+        color: rgb(255, 255, 255);
 }
 
 
