@@ -1,49 +1,46 @@
 @charset "UTF-8";
 
 .section{
-        display: none;
-        width: 65vw;
-
-        margin: 100px auto;
-        border-radius: 10px;
-        margin-bottom: 50px;
+                                display: none;
+                                margin: 100px auto;
+                                border-radius: 10px;
+                                margin-bottom: 50px;
 }
 
-#section1{                              display: block;
+#section1{                         
+                                display: block;
         
 }
 
 #content1 {
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
 }
-
 #content2 {
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(53, 165, 19, 0.404));
 }
-
 #content3 {       
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
 }
 #content4 {                     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
                                 
 }
-#content5 {                    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
-                                
+#content5 {                    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));                               
 }
 
 .content {
                                 text-align: center; 
-                                margin: 20px auto;
+                                margin: auto;
                                 padding: 10px;
                                 border-radius: 15px; 
                                 background-color: rgba(0, 0, 0, 0.753);
-                                width: 50vw;
-                                margin-top: 100px;
+                                width: 500px;
+
 }
 
 h1 {
                                 color: var(--color-h1-content);
-                                margin-top: 20px;
+                                text-align: center;
+
                                 
 }
 
@@ -55,10 +52,11 @@ h1 {
 
 .paragrafo-free {
                                 background-color: #302929;
-                                padding: 10px;
-                                width: 25vw;
-                                margin: 15px auto;
-                                border-radius: 25px;
+                                border: 1px solid black;
+                                padding: 20px;
+                                width: 20vw;
+                                margin: 10px auto;
+                                border-radius: 3px;
                                 
 }
 
@@ -86,7 +84,7 @@ h1 {
 
 .paginas {
                                 margin: auto;
-                                width: 20vw;
+                                width: 300px;
                                 text-align: center;
 }
 
@@ -100,7 +98,7 @@ h1 {
 }
 
 .li-paginas:hover {
-                                transform: scale(1.20);
+                                transform: scale(1.09);
                                 transition:  .6s;
                                 filter: brightness(2.0);
                                      
@@ -112,11 +110,8 @@ h1 {
 }
 
 .p-li-paginas:hover {
-        color: rgb(255, 255, 255);
+                                color: rgb(255, 255, 255);
 }
-
-
-
 
 #li-paginas1 {
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
@@ -140,12 +135,7 @@ h1 {
 @media screen and (max-width: 768px){
 
         .content {
-                                text-align: center; 
-                                margin: 20px auto;
-                                padding: 10px;
-                                border-radius: 15px;
-                                background-color: rgba(0, 0, 0, 0.753);
-                                width: 60vw;
+                                width: 70%;
                                 
         }
 
@@ -160,26 +150,22 @@ h1 {
 }
 
         .link-free {
-                                color: white;
+                                font-size: 20px;
                                 text-decoration: none;
-                                background-color: blue;
-                                margin: 15px;
 }
 
         .paragrafo-free {
-                                background-color: blue;
-                                padding: 10px;
+
                                 width: 40vw;
-                                margin: 15px auto;
-                                border-radius: 25px;
+
                 
         }
 
         
 .paginas {
-        margin: auto;
-        width: 200px;
-        text-align: center;
+                                margin: auto;
+                                width: 240px;
+                                text-align: center;
 }
 
 
