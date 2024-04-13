@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+h1, h2 {
+        color: black;
+        text-align: center;                               
+}
+
 .section{
                                 display: none;
                                 margin: 100px auto;
@@ -13,18 +18,18 @@
 }
 
 #content1 {
-                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
+                                background-image: linear-gradient(to left, rgba(255, 255, 255, 0.999), rgba(214, 40, 200));
 }
 #content2 {
-                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(53, 165, 19, 0.404));
+                                background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(53, 165, 19, 0.404));
 }
 #content3 {       
-                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
+                                background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 230, 6, 0.404));
 }
-#content4 {                     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
+#content4 {                     background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 255, 0.596));
                                 
 }
-#content5 {                    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));                               
+#content5 {                    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 0, 0, 0.404));                               
 }
 
 .content {
@@ -34,14 +39,46 @@
                                 border-radius: 15px; 
                                 background-color: rgba(0, 0, 0, 0.753);
                                 width: 500px;
-
 }
 
-h1 {
-                                color: white;
-                                text-align: center;
+@keyframes linkFree {
+        0% {
+                transform: rotate(0deg);
+            }
+            20% {
+                transform: rotate(-5deg);
+            }
+            30% {
+                transform: rotate(5deg);
+            }
+            40% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(-5deg);
+            }
+            60% {
+                transform: rotate(5deg);
+            }
+            70% {
+                transform: rotate(0deg);
+            }
+            80% {
+                transform: rotate(-5deg);
+            }
+            90% {
+                transform: rotate(5deg);
+            }
+            100% {
+                transform: rotate(5deg);
+            }
+}
 
-                                
+.meu-rosto {
+                                display: block;
+                                margin: auto;
+                                width: 15vw;
+                                cursor: pointer;
 }
 
 .link-free {
@@ -62,25 +99,18 @@ h1 {
                                 width: 285px;
                                 margin: 10px auto;
                                 border-radius: 3px;
+
                                 
 }
 
-.meu-rosto {
-                                display: block;
-                                margin: auto;
-                                width: 15vw;
-                                cursor: pointer;  
-                                filter: hue-rotate(0deg);
-
-
+.paragrafo-free:hover {
+                                animation: linkFree 0.59s  alternate;
 }
 
-.meu-rosto:hover {
-                                filter: hue-rotate(50deg);
-
+.h2-horarios, 
+.h1-localiza, 
+.h1-contatos {                  margin: 10px;
 }
- 
-
 
 .paginas {
                                 margin: auto;
@@ -89,7 +119,6 @@ h1 {
 }
 
 .li-paginas {
-
                                 list-style-type: none;
                                 padding: 5px 5px;
                                 margin: 3px;
@@ -100,8 +129,7 @@ h1 {
 .li-paginas:hover {
                                 transform: scale(1.09);
                                 transition:  .6s;
-                                filter: brightness(2.0);
-                                     
+                                filter: brightness(2.0);                                    
 }
 
 .p-li-paginas {
@@ -143,8 +171,7 @@ h1 {
                                 display: block;
                                 margin: auto;
                                 width: 30vw;
-                                cursor: pointer;  
-                                filter: hue-rotate(0deg);
+                                cursor: pointer;
 
 
 }
@@ -156,17 +183,11 @@ h1 {
 
         .paragrafo-free {
 
-                                width: 200px;
-                                text-align: center;
+                                width: 200px;                                      
+}
 
-                
-        }
-
-        
-.paginas {
-                                margin: auto;
+        .paginas {
                                 width: 240px;
-                                text-align: center;
 }
 
 
