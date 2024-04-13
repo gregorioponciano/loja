@@ -112,7 +112,7 @@ body {
 
 .redes-img:hover {
                                 filter: contrast(100%);
-                                width: 30px;
+                                transform: scale(1.92);
 }
 
 .termos{
@@ -129,8 +129,6 @@ body {
 }
 
 .a-termos:hover {
-
-                                font-size: 17px;
                                 color: #005CC8;
 }
 
