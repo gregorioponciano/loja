@@ -22,9 +22,12 @@
 }
 
 #content3 {       
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
 }
-#content4 {                     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
+#content4 {                     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
+                                
+}
+#content5 {                    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
                                 
 }
 
@@ -87,7 +90,7 @@ p {
 
 .paginas {
                                 margin: auto;
-                                width: 40vw;
+                                width: 20vw;
                                 text-align: center;
 }
 
@@ -103,21 +106,21 @@ p {
 
 
 #li-paginas1 {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
 }
 
 #li-paginas2 {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(53, 165, 19, 0.404));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(53, 165, 19, 0.404));
 }
 
 #li-paginas3 {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.753), rgba(255, 230, 6, 0.404));
 }
 
 #li-paginas4 {       
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
 }
-#li-paginas5 {                     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
+#li-paginas5 {                  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
         
 }
 
@@ -129,7 +132,7 @@ p {
                                 padding: 10px;
                                 border-radius: 15px;
                                 background-color: rgba(0, 0, 0, 0.753);
-                                width: 70vw;
+                                width: 60vw;
                                 
         }
 
@@ -158,6 +161,13 @@ p {
                                 border-radius: 25px;
                 
         }
+
+        
+.paginas {
+        margin: auto;
+        width: 200px;
+        text-align: center;
+}
 
 
 
