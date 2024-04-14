@@ -11,107 +11,101 @@
 
 </head> 
 <body>
-<div class="header" id="header">
-    <button class="btn_icon_header" onclick="toggleSidebar()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-    </button>
-    <div class="logo_header">
-        <img src="imagens/logo.loja.png" alt="logo" id="img_header_logo">
+    <div class="header" id="header">
+        
+        <button class="btn_icon_header" onclick="toggleSidebar()">☰</button>
+        <div class="logo_header">
+            <img src="imagens/logo.loja.png" alt="logo" id="img_header_logo">
+        </div>
+
+        <div class="navigation_header" id="navigation_header">
+            <button class="btn_icon_header" onclick="toggleSidebar()">x</button>
+            <a href="inicio.html" id="active" class="active">Home</a>
+            <a href="suporte.html" class="active">Suporte</a>
+            <a href="loja.html" class="active">Loja</a>
+            <a href="cadastro.html" class="active">Cadastre-se</a>
+            <a href="login.html" class="active">Login</a>
+        </div>
     </div>
-    <div class="navigation_header" id="navigation_header">
-        <button class="btn_icon_header" onclick="toggleSidebar()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>
-        </button>
-        <a href="inicio.html" id="active" class="active">Home</a>
-        <a href="suporte.html" class="active">Suporte</a>
-        <a href="loja.html" class="active">Loja</a>
-        <a href="cadastro.html" class="active">Cadastre-se</a>
-        <a href="login.html" class="active">Login</a>
+
+    <section id="section1" class="section">
+        <div class="content">
+            <div class="fundo"></div>
+            <aside>
+                <p class="p-section"><strong>Política de Privacidade:</strong> Nossa Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos os dados dos usuários. Estamos comprometidos em proteger sua privacidade e garantir a confidencialidade das informações fornecidas.</p>
+            </aside>
+            <div class="fundo"></div>
+        </div>
+    </section>
+
+    <section id="section2" class="section">
+        <div class="content">
+            <div class="fundo" class="fundo"></div>
+            <aside>
+                <p class="p-section"><strong>Termos de Serviço:</strong> Este site é disponibilizado para seu uso pessoal e não comercial. Você concorda em não utilizar este site para qualquer finalidade ilegal ou não autorizada.</p>
+            </aside>
+            <div class="fundo"></div>
+        </div>
+    </section>
+
+    <section id="section3" class="section">
+        <div class="content">
+            <div class="fundo" class="fundo"></div>
+            <aside>
+                <p class="p-section"><strong>Política de Cookies:</strong> Utilizamos cookies para melhorar a experiência do usuário. Ao utilizar nosso site, você concorda com o uso de cookies de acordo com nossa Política de Cookies.</p>
+            </aside>
+            <div class="fundo"></div>
+        </div>
+    </section>
+
+    <section id="section4" class="section">
+        <div class="content">
+            <div class="fundo" class="fundo"></div>
+            <aside>
+                <p class="p-section"><strong>Direitos Autorais:</strong> Todo o conteúdo publicado neste site é de propriedade de [Nome do seu site] ou licenciado para uso. A reprodução ou uso não autorizado do conteúdo deste site é proibida.</p>
+            </aside>
+            <div class="fundo"></div>
+        </div>
+    </section>
+
+    <section id="section5" class="section">
+        <div class="content">
+            <div class="fundo" class="fundo"></div>
+            <aside>
+                <p class="p-section"><strong>Devolução/Reembolso:</strong> Se não estiver satisfeito com sua compra, consulte nosso para obter informações sobre processos de devolução e reembolso.</p>
+            </aside>
+            <div class="fundo"></div>
+        </div>
+    </section>
+
+    <div class="paginas">
+        <ul>
+            <li onclick="toggleContent('section1')">Privacidade</li>
+            <li onclick="toggleContent('section2')">Serviço</li>
+            <li onclick="toggleContent('section3')">Cookies</li>
+            <li onclick="toggleContent('section4')">Direitos Autorais</li>
+            <li onclick="toggleContent('section5')">Devolução/Reembolso</li>
+        </ul>
     </div>
-</div>
 
-<section id="section1" class="section">
-    <div class="content">
-        <div class="fundo"></div>
-        <aside>
-            <p class="p-section"><strong>Política de Privacidade:</strong> Nossa Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos os dados dos usuários. Estamos comprometidos em proteger sua privacidade e garantir a confidencialidade das informações fornecidas.</p>
-        </aside>
-        <div class="fundo"></div>
+
+    <div class="redes" id="redes">
+        <a href="https://x.com/Gregoriponci?t=PdkyVOYyk2eseWp4iuWlbw&s=09" target="_blank" class="link-redes"><img src="imagens/twiter-logo.png" alt="Twiter" class="redes-img"></a>
+        <a href="https://instagram.com/salmoneusoficial?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="link-redes"><img src="imagens/instagram-logo.png" alt="Instagram" class="redes-img"></a>
+        <a href="https://youtube.com/@Gregorioponciano?si=8-eMsSW7Sin-WA_e" target="_blank" class="link-redes"><img src="imagens/youtube-logo.png" alt="Youtube" class="redes-img"></a>
+        <img src="imagens/logo-discord.png" alt="Discord" class="redes-img">
+        <a href="https://www.facebook.com/profile.php?id=100090009496226&mibextid=ZbWKwL" target="_blank" class="link-redes"><img src="imagens/facebook-logo.png" alt="Facebook" class="redes-img"></a>
     </div>
-</section>
 
-<section id="section2" class="section">
-    <div class="content">
-        <div class="fundo" class="fundo"></div>
-        <aside>
-            <p class="p-section"><strong>Termos de Serviço:</strong> Este site é disponibilizado para seu uso pessoal e não comercial. Você concorda em não utilizar este site para qualquer finalidade ilegal ou não autorizada.</p>
-        </aside>
-        <div class="fundo"></div>
+    <div class="termos">
+        <a href="termos.html" class="a-termos">Termos de uso</a>
+        <a href="#" class="a-termos">Privacidade</a>
+        <a href="cadastro.html" class="a-termos">Cadastre-se</a>
     </div>
-</section>
 
-<section id="section3" class="section">
-    <div class="content">
-        <div class="fundo" class="fundo"></div>
-        <aside>
-            <p class="p-section"><strong>Política de Cookies:</strong> Utilizamos cookies para melhorar a experiência do usuário. Ao utilizar nosso site, você concorda com o uso de cookies de acordo com nossa Política de Cookies.</p>
-        </aside>
-        <div class="fundo"></div>
-    </div>
-</section>
-
-<section id="section4" class="section">
-    <div class="content">
-        <div class="fundo" class="fundo"></div>
-        <aside>
-            <p class="p-section"><strong>Direitos Autorais:</strong> Todo o conteúdo publicado neste site é de propriedade de [Nome do seu site] ou licenciado para uso. A reprodução ou uso não autorizado do conteúdo deste site é proibida.</p>
-        </aside>
-        <div class="fundo"></div>
-    </div>
-</section>
-
-<section id="section5" class="section">
-    <div class="content">
-        <div class="fundo" class="fundo"></div>
-        <aside>
-            <p class="p-section"><strong>Devolução/Reembolso:</strong> Se não estiver satisfeito com sua compra, consulte nosso para obter informações sobre processos de devolução e reembolso.</p>
-        </aside>
-        <div class="fundo"></div>
-    </div>
-</section>
-
-<div class="paginas">
-    <ul>
-        <li onclick="toggleContent('section1')">Privacidade</li>
-        <li onclick="toggleContent('section2')">Serviço</li>
-        <li onclick="toggleContent('section3')">Cookies</li>
-        <li onclick="toggleContent('section4')">Direitos Autorais</li>
-        <li onclick="toggleContent('section5')">Devolução/Reembolso</li>
-    </ul>
-</div>
-
-
-<div class="redes" id="redes">
-    <a href="https://x.com/Gregoriponci?t=PdkyVOYyk2eseWp4iuWlbw&s=09" target="_blank" class="link-redes"><img src="imagens/twiter-logo.png" alt="Twiter" class="redes-img"></a>
-    <a href="https://instagram.com/salmoneusoficial?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="link-redes"><img src="imagens/instagram-logo.png" alt="Instagram" class="redes-img"></a>
-    <a href="https://youtube.com/@Gregorioponciano?si=8-eMsSW7Sin-WA_e" target="_blank" class="link-redes"><img src="imagens/youtube-logo.png" alt="Youtube" class="redes-img"></a>
-    <img src="imagens/logo-discord.png" alt="Discord" class="redes-img">
-    <a href="https://www.facebook.com/profile.php?id=100090009496226&mibextid=ZbWKwL" target="_blank" class="link-redes"><img src="imagens/facebook-logo.png" alt="Facebook" class="redes-img"></a>
-</div>
-
-<div class="termos">
-    <a href="termos.html" class="a-termos">Termos de uso</a>
-    <a href="#" class="a-termos">Privacidade</a>
-    <a href="cadastro.html" class="a-termos">Cadastre-se</a>
-</div>
-
-<footer>
-    <p class="p-footer">© 2024 | GregorioPonciano - Todos os Direitos Reservados.</p>
- </footer>
+    <footer>
+        <p class="p-footer">© 2024 | GregorioPonciano - Todos os Direitos Reservados.</p>
+    </footer>
 
 <script src="./js/menubar.js"></script>
 <script src="js/termos.js"></script>

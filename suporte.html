@@ -12,20 +12,14 @@
 </head>
 <body>
     <div class="header" id="header">
-        <button class="btn_icon_header" onclick="toggleSidebar()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-              </svg>
-        </button>
+        
+        <button class="btn_icon_header" onclick="toggleSidebar()">☰</button>
         <div class="logo_header">
             <img src="imagens/logo.loja.png" alt="logo" id="img_header_logo">
         </div>
+
         <div class="navigation_header" id="navigation_header">
-            <button class="btn_icon_header" onclick="toggleSidebar()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                  </svg>
-            </button>
+            <button class="btn_icon_header" onclick="toggleSidebar()">x</button>
             <a href="inicio.html" id="active" class="active">Home</a>
             <a href="suporte.html" class="active">Suporte</a>
             <a href="loja.html" class="active">Loja</a>
@@ -34,134 +28,133 @@
         </div>
     </div>
 
-
-        <section>
-            <div>           
-                <h1>1. Perguntas Frequentes (FAQ):</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content1')">Como faço para me cadastrar no site?</a></p>
-                <div id="content1" class="content">
-                    <!-- Cinformaçoes escondidas -->
-                    no momento estamos fazendo apenas cadastro pelo what's (14) 99176-1256 
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content2')">Como faço para fazer login no site?</a></p>
-                <div id="content2" class="content">
-                    <!-- informaçoes escondidas -->
-                    depois que voce recebeu seu id e senha pelo what's entre neste link <a href="https://gregorioponciano.github.io/loja/login.html">Aqui</a> ou vá ate as opções no menu superior  e entre na parte login
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content3')">Como faço para encontrar um produto ou serviço específico?</a></p>
-                <div id="content3" class="content">
-                    <!-- informaçoes escondidas -->
-                    Você precisa se cadastrar no site para ter vantegens de um vip
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content4')">Como faço para fazer uma compra?</a></p>
-                <div id="content4" class="content">
-                    <!-- informaçoes escondidas -->
-                    Compras e orçamentos e feito pelo what's (14) 99176-1256
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content5')">Como faço para cancelar uma compra?</a></p>
-                <div id="content5" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Se não estiver satisfeito com sua compra, consulte nossos termos para obter informações sobre processos de devolução e reembolso.
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content6')">Como faço para resolver um problema com o site?</a></p>
-                <div id="content6" class="content">
-                    <!-- infomaçoes escondidas -->
-                    entre em contato no what's ou nas redes. suporte em ate 24 horas.
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content7')">Como faço para entrar em contato com o suporte?</a></p>
-                <div id="content7" class="content">
-                    <!-- infomaçoes escondidas -->
-                    você pode entrar em contato pelas redes sociais, whats' e tambem pelo formalario de contato.
-                </div>
-                <h1>2. Central de Ajuda:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content8')">Central de Suporte</a></p>
-                <div id="content8" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Conteúdo da pergunta 8
-                </div>
-                <h1>3. Chat ao Vivo:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content9')">Chat Online</a></p>
-                <div id="content9" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Chat em (manutenção)
-                </div>
-                <h1>4. Formulário de Contato:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content10')">Fale Conosco</a></p>
-                <div id="content10" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Formulario em (manutenção) 
-                </div>
-                <h1>5. Comunidade ou Fórum:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content11')">Comunidade</a></p>
-                <div id="content11" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Conteúdo da pergunta 11
-                </div>
-                <h1>6. Canal de Atendimento ao Cliente:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content12')">Ofereçemos em até suporte 24 horas.</a></p>
-                <div id="content12" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Conteúdo da pergunta 12
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content13')">SAQ.</a></p>
-                <div id="content13" class="content">
-                    <!-- infomaçoes escondidas -->
-                    Conteúdo da pergunta 13
-                </div>
-                <h1>7. Políticas da Empresa:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content14')">Sobre nós</a></p>
-                <div id="content14" class="content">
-                    <!-- informaçoes escondidas -->
-                    sua parceira confiável na jornada digital. Somos apaixonados por transformar ideias em realidade, criando experiências online exclusivas que cativam e inspiram.
-                    Desde o nosso início, nos comprometemos em oferecer soluções inovadoras e personalizadas para atender às necessidades únicas de cada cliente. Nossa abordagem é focada no cliente, colocando as necessidades e objetivos dos nossos clientes no centro de tudo o que fazemos. Acreditamos em construir relacionamentos sólidos e duradouros, baseados na confiança, transparência e comunicação aberta, não apenas criamos sites impressionantes, mas também construímos parcerias sólidas. Estamos comprometidos em oferecer um serviço excepcional, desde a concepção até o lançamento e além, garantindo que cada projeto seja perfeito com perfeição e perfeição.
-                    Junte-se a nós construiremos experiências digitais memoráveis e a contribuições, o seu sucesso online. Estamos aqui para ajudá-lo a alcançar novos patamares e se destacar em um mundo digital em constante evolução.
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content15')">Uso de dados</a></p>
-                <div id="content15" class="content">
-                    <!-- informaçoes escondidas -->
-                    Consulte nossa Política de Privacidade para saber mais sobre como tratamos seus dados. Você também pode entrar em contato conosco pelo formulario de contato, redes ou pelo telefone (14) 99176-1256.
-                    Juntos, construiremos uma relação de confiança e respeito, com total transparência no uso de seus dados.
-                </div>
-                <h1>8. Feedback dos Clientes:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content16')">Feedback</a></p>
-                <div id="content16" class="content">
-                    <!-- informaçoes escondidas -->
-                    Diga com esta sendo sua experiencia dentro do nosso site
-                </div>
-                <h1>9. Status de Pedidos:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content17')">Pedido recebido: o pedido foi recebido pela empresa.</a></p>
-                <div id="content17" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 17
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content18')">Pedido processado: o pedido está sendo processado.</a></p>
-                <div id="content18" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 18
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content19')">Pedido em trânsito: o pedido está sendo enviado ao cliente.</a></p>
-                <div id="content19" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 19
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content20')">Pedido entregue: o pedido foi entregue ao cliente.</a></p>
-                <div id="content20" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 20
-                </div>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content21')">Pedido cancelado: o pedido foi cancelado.</a></p>
-                <div id="content21" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 21
-                </div>
-                <h1>10. Atendimento Personalizado:</h1>
-                <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content22')">VIP</a></p>
-                <div id="content22" class="content">
-                    <!-- informaçoes escondidas -->
-                    Conteúdo da pergunta 22
-                </div>
+    <section>
+        <div>           
+            <h1>1. Perguntas Frequentes (FAQ):</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content1')">Como faço para me cadastrar no site?</a></p>
+            <div id="content1" class="content">
+                <!-- Cinformaçoes escondidas -->
+                no momento estamos fazendo apenas cadastro pelo what's (14) 99176-1256 
             </div>
-        </section>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content2')">Como faço para fazer login no site?</a></p>
+            <div id="content2" class="content">
+                <!-- informaçoes escondidas -->
+                depois que voce recebeu seu id e senha pelo what's entre neste link <a href="https://gregorioponciano.github.io/loja/login.html">Aqui</a> ou vá ate as opções no menu superior  e entre na parte login
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content3')">Como faço para encontrar um produto ou serviço específico?</a></p>
+            <div id="content3" class="content">
+                <!-- informaçoes escondidas -->
+                Você precisa se cadastrar no site para ter vantegens de um vip
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content4')">Como faço para fazer uma compra?</a></p>
+            <div id="content4" class="content">
+                <!-- informaçoes escondidas -->
+                Compras e orçamentos e feito pelo what's (14) 99176-1256
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content5')">Como faço para cancelar uma compra?</a></p>
+            <div id="content5" class="content">
+                <!-- infomaçoes escondidas -->
+                Se não estiver satisfeito com sua compra, consulte nossos termos para obter informações sobre processos de devolução e reembolso.
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content6')">Como faço para resolver um problema com o site?</a></p>
+            <div id="content6" class="content">
+                <!-- infomaçoes escondidas -->
+                entre em contato no what's ou nas redes. suporte em ate 24 horas.
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content7')">Como faço para entrar em contato com o suporte?</a></p>
+            <div id="content7" class="content">
+                <!-- infomaçoes escondidas -->
+                você pode entrar em contato pelas redes sociais, whats' e tambem pelo formalario de contato.
+            </div>
+            <h1>2. Central de Ajuda:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content8')">Central de Suporte</a></p>
+            <div id="content8" class="content">
+                <!-- infomaçoes escondidas -->
+                Conteúdo da pergunta 8
+            </div>
+            <h1>3. Chat ao Vivo:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content9')">Chat Online</a></p>
+            <div id="content9" class="content">
+                <!-- infomaçoes escondidas -->
+                Chat em (manutenção)
+            </div>
+            <h1>4. Formulário de Contato:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content10')">Fale Conosco</a></p>
+            <div id="content10" class="content">
+                <!-- infomaçoes escondidas -->
+                Formulario em (manutenção) 
+            </div>
+            <h1>5. Comunidade ou Fórum:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content11')">Comunidade</a></p>
+            <div id="content11" class="content">
+                <!-- infomaçoes escondidas -->
+                Conteúdo da pergunta 11
+            </div>
+            <h1>6. Canal de Atendimento ao Cliente:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content12')">Ofereçemos em até suporte 24 horas.</a></p>
+            <div id="content12" class="content">
+                <!-- infomaçoes escondidas -->
+                Conteúdo da pergunta 12
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content13')">SAQ.</a></p>
+            <div id="content13" class="content">
+                <!-- infomaçoes escondidas -->
+                Conteúdo da pergunta 13
+            </div>
+            <h1>7. Políticas da Empresa:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content14')">Sobre nós</a></p>
+            <div id="content14" class="content">
+                <!-- informaçoes escondidas -->
+                sua parceira confiável na jornada digital. Somos apaixonados por transformar ideias em realidade, criando experiências online exclusivas que cativam e inspiram.
+                Desde o nosso início, nos comprometemos em oferecer soluções inovadoras e personalizadas para atender às necessidades únicas de cada cliente. Nossa abordagem é focada no cliente, colocando as necessidades e objetivos dos nossos clientes no centro de tudo o que fazemos. Acreditamos em construir relacionamentos sólidos e duradouros, baseados na confiança, transparência e comunicação aberta, não apenas criamos sites impressionantes, mas também construímos parcerias sólidas. Estamos comprometidos em oferecer um serviço excepcional, desde a concepção até o lançamento e além, garantindo que cada projeto seja perfeito com perfeição e perfeição.
+                Junte-se a nós construiremos experiências digitais memoráveis e a contribuições, o seu sucesso online. Estamos aqui para ajudá-lo a alcançar novos patamares e se destacar em um mundo digital em constante evolução.
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content15')">Uso de dados</a></p>
+            <div id="content15" class="content">
+                <!-- informaçoes escondidas -->
+                Consulte nossa Política de Privacidade para saber mais sobre como tratamos seus dados. Você também pode entrar em contato conosco pelo formulario de contato, redes ou pelo telefone (14) 99176-1256.
+                Juntos, construiremos uma relação de confiança e respeito, com total transparência no uso de seus dados.
+            </div>
+            <h1>8. Feedback dos Clientes:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content16')">Feedback</a></p>
+            <div id="content16" class="content">
+                <!-- informaçoes escondidas -->
+                Diga com esta sendo sua experiencia dentro do nosso site
+            </div>
+            <h1>9. Status de Pedidos:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content17')">Pedido recebido: o pedido foi recebido pela empresa.</a></p>
+            <div id="content17" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 17
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content18')">Pedido processado: o pedido está sendo processado.</a></p>
+            <div id="content18" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 18
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content19')">Pedido em trânsito: o pedido está sendo enviado ao cliente.</a></p>
+            <div id="content19" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 19
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content20')">Pedido entregue: o pedido foi entregue ao cliente.</a></p>
+            <div id="content20" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 20
+            </div>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content21')">Pedido cancelado: o pedido foi cancelado.</a></p>
+            <div id="content21" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 21
+            </div>
+            <h1>10. Atendimento Personalizado:</h1>
+            <p class="p-section">➛<a href="#" class="link-section" onclick="toggleContent('content22')">VIP</a></p>
+            <div id="content22" class="content">
+                <!-- informaçoes escondidas -->
+                Conteúdo da pergunta 22
+            </div>
+        </div>
+    </section>
 
     <div class="redes" id="redes">
         <a href="https://x.com/Gregoriponci?t=PdkyVOYyk2eseWp4iuWlbw&s=09" target="_blank" class="link-redes"><img src="imagens/twiter-logo.png" alt="Twiter" class="redes-img"></a>
