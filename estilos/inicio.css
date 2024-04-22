@@ -95,6 +95,7 @@ h1 {                            color: var(--color-h1-content);
 .pModal {
                                 margin-bottom: 10px;
                                 text-align: center;
+                                line-height: 1.5em;
 }
 /*contato whats*/
 .button-content{
