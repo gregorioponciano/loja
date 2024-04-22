@@ -10,7 +10,7 @@ function fecharModal() {
     modal.style.display = 'none';
 }
 
-        // abrir o contato de whats
+        // abrir o contato de whats pagina inicio
 var botaoAbrirSite = document.getElementById('abrirSite');
 
         // Adiciona um evento de clique ao botão
