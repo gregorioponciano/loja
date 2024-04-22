@@ -97,18 +97,14 @@ h1 {                            color: var(--color-h1-content);
                                 text-align: center;
 }
 /*contato whats*/
-.button-what-content{
+.button-content{
                                 color: black;
-                                text-decoration: none;         
-}
-
-.button-content {
                                 padding: 10px 20px;
                                 font-size: 16px;
                                 border: 1px solid #ccc;
-                                cursor: pointer;
-
+                                cursor: pointer;        
 }
+
         /*formulario-deixar contato*/
 .recado{
                                 width: 90vw;                               
