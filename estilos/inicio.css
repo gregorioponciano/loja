@@ -42,6 +42,7 @@ h1 {                            color: var(--color-h1-content);
                                 justify-content: center;
                                 flex-direction: column;
                                 margin-bottom: 20px;
+                                transition: 0.1s;
 
 }
           /*MODAL SAIBA MAIS*/
@@ -103,7 +104,7 @@ h1 {                            color: var(--color-h1-content);
                                 padding: 10px 20px;
                                 font-size: 16px;
                                 border: 1px solid #ccc;
-                                cursor: pointer;        
+                                cursor: pointer;
 }
 
         /*formulario-deixar contato*/
@@ -111,6 +112,7 @@ h1 {                            color: var(--color-h1-content);
                                 width: 90vw;                               
                                 background-color: rgb(255, 255, 255);
                                 margin: 50px auto;
+                                transition: 0.1s;
                                 
 }
 
