@@ -1,123 +1,121 @@
 @charset "UTF-8";
 
 body {
-                                    color: aliceblue;
-                                    text-align: center;
-                                    margin: auto;
-                                    display: block;
+                                color: aliceblue;
+                                text-align: center;
+                                margin: auto;
+                                display: block;
 }
 
 .cadastro {
-                                    background-image: linear-gradient(to left, #9E0D5D, #391681);
-                                    border-radius: 10px;
-                                    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
-                                    width: 47vw;
-                                    margin: 110px auto;
-                                    padding: 30px;
+                                background-image: linear-gradient(to left, #9E0D5D, #391681);
+                                border-radius: 10px;
+                                box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
+                                width: 47vw;
+                                margin: 110px auto;
+                                padding: 30px;
 }
 
 h1 {
-                                    text-align: center;
-                                    margin-bottom: 10px;
+                                text-align: center;
+                                margin-bottom: 10px;
 }
 
 form {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                    margin: 0 auto;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0 auto;
 }
 
 .input{
-                                    outline: none;
-                                    margin-left: 5px;
-                                    padding: 10px;
-                                    margin: auto;
-                                    width: 20vw;
+                                outline: none;
+                                margin-left: 5px;
+                                padding: 10px;
+                                margin: auto;
+                                width: 20vw;
 }
 
 label {
-                                    padding: 5px;
+                                padding: 5px;
 
                                     
 }
 
-#section-concordo {
-                                    display: flex;
-                                    flex-direction: row;
-}
-
 section {
-                                    display: flex;
-                                    flex-direction: column; 
-                                    align-items: center;
-}
+                                display: flex;
+                                flex-direction: column; 
+                                align-items: center;
+} 
 
-.input-cadastro:hover {
-                                    color: black;
-}
-
-#link-login {
-                                    text-decoration: none;
-                                    font-weight: bold;
-                                    color: #0000FF;
-
+.container-login-cadastro {
+                                display: flex;
+                                align-items: center;
+                                width: 20%;
+                                justify-content: center;
 }
 
 #div-cadastro {
-                                    margin: auto;
-                                    background-color: #0000FF;
-                                    border-radius: 10px;
-                                    padding: 10px;
-                                    margin-bottom: 10px;
-                                    color: transparent;
-}
+                                background-color: blue;
+                                margin: 10px;
+                                padding: 5px 20px;
+                                border-radius: 5px;
+                                border: 1px solid white;
 
-.input-cadastro {
-                                    color: rgb(37, 219, 67);
-                                    background-color: transparent;
-                                    border: none;
-                                    font-weight: bold;
-                                    cursor: pointer;
 }
 
 #div-login {
-                                    margin: auto;
-                                    background-color: white;
-                                    border-radius: 10px;
-                                    padding: 10px;
+                                background-color: white;
+                                margin: 10px;
+                                padding: 5px 20px;  
+                                border-radius: 5px;  
+                                border: 1px solid black;   
 }
 
-#section-notificar-email {
-                                    display: flex;
-                                    flex-direction: row;
-                                    margin-bottom: 10px;
+#link-cadastro {
+                                color: white;
+                                text-decoration: none;
+}
+
+#link-login {
+                                color: black;
+                                text-decoration: none;
+}
+
+#div-cadastro:hover {
+                                background-color: #391681;
+}
+
+#div-login:hover {
+                                background-color: #391681;
 }
 
 #a-mais-termos {
-                                    color: white;
-                                    display: inline;
+                                color: white;
+                                display: inline;
 }
 
 #p-mais-termos {
                                   
-                                   display: none;
+                                display: none;
 }
 
 #a-menos-termos {
-                                    color: white;
-                                    display: none;
+                                color: black;
+                                font-size: 18px;
+                                display: none;
    
 }
 
 #a-mais-noticias {
-                                   color: white;
-                                   display: inline;
+                                color: white;
+                                display: inline;
 }
 
 #a-menos-noticias {
-                                color: white;
+                                color: black;
+                                font-size: 18px;
                                 display: none;
 }
 
@@ -129,23 +127,23 @@ section {
 
         /* img Login*/
 .div-img-login {
-                                    width: 450px;
-                                    margin-top: 10px;
+                                width: 450px;
+                                margin-top: 10px;
                                     
 }
 
 .img-login {
-                                    width: 30px;
-                                    padding: 7px 40px;
-                                    height: 30px;
-                                    margin: 5px;
-                                    border-radius: 5px;
-                                    cursor: pointer;
+                                width: 20px;
+                                padding: 7px 30px;
+                                height: 20px;
+                                margin: 5px;
+                                border-radius: 5px;
+                                cursor: pointer;
 }
 
-#img-login-facebook {               background-color: #1B77F3;}
-#img-login-google   {               background-color: #ECECEC;}
-#img-login-apple    {               background-color: #000000;}
+#img-login-facebook {           background-color: #1B77F3;}
+#img-login-google   {           background-color: #ECECEC;}
+#img-login-apple    {           background-color: #000000;}
 
 @media screen and (max-width: 768px){
     
@@ -159,13 +157,16 @@ section {
                                 width: 40vw;
     }
 
-
+    #section-concordo, #section-notificar-email  {
+        width: 50vw;
+}
 
     .img-login {
-        width: 20px;
-        padding: 6px 20px;
-        height: 20px;
-        margin: 3px;
+                                width: 20px;
+                                padding: 6px 25px;
+                                height: 20px;
+                                margin: 3px;
+
 }
 
 
