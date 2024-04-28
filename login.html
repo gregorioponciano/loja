@@ -48,11 +48,13 @@
                     <label for="lembrar">Lembrar-Me</label>
             </section>
                                 
-            <div id="div-login">
-                    <input type="submit" value="Login" class="input-login" onclick="logar(); return false"> /*return false ele para de esperar a validaçaodo formulario e faz oque a gente mandar ou seja o location.href no js */
-            </div>
-            <div id="div-cadastro">
-                <a href="cadastro.html" id="link-cadastro">Cadastre-se</a>   
+            <div class="container-login-cadastro">
+                <div id="div-cadastro">
+                    <a href="cadastro.html" id="link-cadastro" onclick="cadastro()">Cadastro</a>
+                </div>
+                <div id="div-login">
+                    <a href="login.html" id="link-login" onclick="logar()">Login</a>
+                </div>
             </div>
             <div class="div-img-login">
                 <a href="#" id="a-esqueceu-senha">Esqueceu a senha</a><br>

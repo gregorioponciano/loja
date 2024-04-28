@@ -77,44 +77,46 @@ section {
 
 }
 
-.input-login {
-                                color: rgb(37, 219, 67);
-                                background-color: transparent;
-                                border: none;
-                                font-weight: bold;
-                                cursor: pointer;
-                                text-align: center;
-
-
-}
-
-.input-login:hover {
-                                    color: black;
-}
-
-#div-login {
-                                    margin: auto;
-                                    background-color: #0000FF;
-                                    width: 9%;
-                                    height: 20px;
-                                    text-align: center;
-                                    margin: 0px 0px 10px 0px;
-                                    border-radius: 10px;
-                                    padding: 10px;
-                                    color: transparent;
+.container-login-cadastro {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
 }
 
 #div-cadastro {
-                                    margin: auto;
-                                    background-color: white;
-                                    border-radius: 10px;
-                                    padding: 10px;
+    background-color: blue;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+#div-login {
+    background-color: white;
+    margin: 10px;
+    padding: 5px 20px;  
+    border-radius: 5px;  
+    border: 1px solid black;   
 }
 
 #link-cadastro {
-                                    font-weight: bold;
-                                    text-decoration: none;
-                                    color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#link-login {
+    color: black;
+    text-decoration: none;
+}
+
+#div-cadastro:hover {
+    background-color: #391681;
+}
+
+#div-login:hover {
+    background-color: #391681;
 }
 
        /* img Login*/
