@@ -43,6 +43,11 @@ label {
                                 padding: 5px;                                  
 }
 
+#a-esqueceu-senha {
+                                color: deepskyblue;
+                                text-decoration: none;
+}
+
 section {
                                 display: flex;
                                 flex-direction: column; 
@@ -88,6 +93,11 @@ section {
 
 #div-login:hover {
                                 background-color: #391681;
+}
+
+#section-concordo, #section-notificar-email  {
+                                width: 30vw;
+                                transition: 0.3s;
 }
 
 #a-mais-termos {

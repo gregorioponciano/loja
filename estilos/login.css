@@ -5,6 +5,7 @@ body {
                                     text-align: center;
                                     margin: auto;
                                     display: block;
+                                    box-sizing: border-box;
 }
 
 .strong {
@@ -141,11 +142,6 @@ section {
 #img-login-facebook {               background-color: #1B77F3;}
 #img-login-google   {               background-color: #ECECEC;}
 #img-login-apple    {               background-color: #000000;}
-
-#img-login-facebook {               background-color: #1B77F3;}
-#img-login-google   {               background-color: #ECECEC;}
-#img-login-apple    {               background-color: #000000;}
-
 
 @media screen and (max-width: 768px){
     
