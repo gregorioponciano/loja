@@ -2,10 +2,13 @@
 
 body {
                                     color: aliceblue;
+                                    text-align: center;
+                                    margin: auto;
+                                    display: block;
 }
 
 .strong {
-                            margin-top: 122px auto;
+                                    margin-top: 122px auto;
 }
 
 .cadastro {
@@ -95,7 +98,7 @@ section {
                                     width: 9%;
                                     height: 20px;
                                     text-align: center;
-                                    margin: 10px auto;
+                                    margin: 0px 0px 10px 0px;
                                     border-radius: 10px;
                                     padding: 10px;
                                     color: transparent;
@@ -113,6 +116,24 @@ section {
                                     text-decoration: none;
                                     color: blue;
 }
+
+       /* img Login*/
+.div-img-login {
+                                    width: 450px;
+                                    margin-top: 10px;      
+}
+
+.img-login {
+                                    width: 30px;
+                                    padding: 7px 40px;
+                                    height: 30px;
+                                    margin: 5px;
+                                    border-radius: 5px;
+}
+
+#img-login-facebook {               background-color: #1B77F3;}
+#img-login-google   {               background-color: #ECECEC;}
+#img-login-apple    {               background-color: #000000;}
 
 
 @media screen and (max-width: 768px){

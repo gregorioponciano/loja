@@ -2,6 +2,9 @@
 
 body {
                                     color: aliceblue;
+                                    text-align: center;
+                                    margin: auto;
+                                    display: block;
 }
 
 .cadastro {
@@ -45,20 +48,11 @@ label {
                                     flex-direction: row;
 }
 
-#section-notificar-email {
-                                    display: flex;
-                                    flex-direction: row;
-                                    margin-bottom: 10px;
-}
-
 section {
                                     display: flex;
                                     flex-direction: column; 
                                     align-items: center;
-
 }
-
-
 
 .input-cadastro:hover {
                                     color: black;
@@ -81,14 +75,12 @@ section {
 }
 
 .input-cadastro {
-                                color: rgb(37, 219, 67);
-                                background-color: transparent;
-                                border: none;
-                                font-weight: bold;
-                                cursor: pointer;
-
+                                    color: rgb(37, 219, 67);
+                                    background-color: transparent;
+                                    border: none;
+                                    font-weight: bold;
+                                    cursor: pointer;
 }
-
 
 #div-login {
                                     margin: auto;
@@ -97,25 +89,62 @@ section {
                                     padding: 10px;
 }
 
-#ler-mais-termos {
+#section-notificar-email {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 10px;
+}
+
+#a-mais-termos {
                                     color: white;
                                     display: inline;
 }
 
-#ler-menos-termos {
-                                    color: white;
-                                    display: none;
-                                   
-}
-
-#p-ler-mais-termos {
+#p-mais-termos {
                                   
                                    display: none;
 }
 
-#vermais {
-    color: white;
+#a-menos-termos {
+                                    color: white;
+                                    display: none;
+   
 }
+
+#a-mais-noticias {
+                    color: white;
+                    display: inline;
+}
+
+#a-menos-noticias {
+                    color: white;
+                    display: none;
+}
+
+#p-mais-noticias {
+                    display: none;
+}
+
+
+
+        /* img Login*/
+.div-img-login {
+                                    width: 450px;
+                                    margin-top: 10px;
+                                    
+}
+
+.img-login {
+                                    width: 30px;
+                                    padding: 7px 40px;
+                                    height: 30px;
+                                    margin: 5px;
+                                    border-radius: 5px;
+}
+
+#img-login-facebook {               background-color: #1B77F3;}
+#img-login-google   {               background-color: #ECECEC;}
+#img-login-apple    {               background-color: #000000;}
 
 @media screen and (max-width: 768px){
     
@@ -128,6 +157,15 @@ section {
     .input {
                                 width: 40vw;
     }
+
+
+
+    .img-login {
+        width: 20px;
+        padding: 6px 20px;
+        height: 20px;
+        margin: 3px;
+}
 
 
 }

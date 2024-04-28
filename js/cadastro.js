@@ -1,6 +1,6 @@
-const menostermos = document.querySelector('#ler-menos-termos')
-const maistermos = document.querySelector('#ler-mais-termos')
-const conteudo = document.querySelector('#p-ler-mais-termos')
+const menostermos = document.querySelector('#a-menos-termos')
+const maistermos = document.querySelector('#a-mais-termos')
+const conteudo = document.querySelector('#p-mais-termos')
 
 
 function maisTermos() {
@@ -15,6 +15,7 @@ function menosTermos() {
     maistermos.style.display = 'block'
     conteudo.style.display = 'none'
 }
+
 
 
 function cadastro() {
