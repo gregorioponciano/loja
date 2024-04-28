@@ -15,6 +15,24 @@ function menosTermos() {
     maistermos.style.display = 'block'
     conteudo.style.display = 'none'
 }
+        //noticias
+const menosnoticias = document.querySelector('#a-menos-noticias')
+const maisnoticias = document.querySelector('#a-mais-noticias')
+const conteudo1 = document.querySelector('#p-mais-noticias')
+
+
+function maisNoticias() {
+    conteudo1.style.display = 'block'
+    maisnoticias.style.display = 'none'
+    menosnoticias.style.display = 'block'
+}
+
+
+function menosNoticias() {
+    menosnoticias.style.display = 'none'
+    maisnoticias.style.display = 'block'
+    conteudo1.style.display = 'none'
+}
 
 
 
