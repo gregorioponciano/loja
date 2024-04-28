@@ -112,17 +112,17 @@ section {
 }
 
 #a-mais-noticias {
-                    color: white;
-                    display: inline;
+                                   color: white;
+                                   display: inline;
 }
 
 #a-menos-noticias {
-                    color: white;
-                    display: none;
+                                color: white;
+                                display: none;
 }
 
 #p-mais-noticias {
-                    display: none;
+                                display: none;
 }
 
 
@@ -140,6 +140,7 @@ section {
                                     height: 30px;
                                     margin: 5px;
                                     border-radius: 5px;
+                                    cursor: pointer;
 }
 
 #img-login-facebook {               background-color: #1B77F3;}
