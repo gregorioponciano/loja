@@ -8,10 +8,7 @@ if(nome == "admin" && senha == "admin123") {
     location.href = "logado.html";  // location.href procura uma pagina html que vai ser redirecionada
 }else{
     alert('Usuario ou senha incorretos');
-}
-}
-
-
+}}
 
 function mostrarSenha() {
   var inputSenha = document.getElementById("senha");

@@ -15,9 +15,10 @@ body {
                                     background-image: linear-gradient(to left, #9E0D5D, #391681);
                                     border-radius: 10px;
                                     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.377);
-                                    width: 47vw;
+                                    width: 40vw;
                                     margin: 122px auto;
                                     padding: 30px;
+                                    transition: 0.3s;
 }
 
 h1 {
@@ -38,6 +39,8 @@ form {
                                     margin-left: 5px;
                                     padding: 10px;
                                     margin: auto;
+                                    width: 20vw;
+                                    transition: 0.3s;
 }
 
 label {
@@ -51,7 +54,7 @@ label {
 }
 
 #senha {
-                                    width: 13vw;
+                                    width: 14vw;
 }
 
 .mostrar-senha {
@@ -78,66 +81,66 @@ section {
 }
 
 .container-login-cadastro {
-    display: flex;
-    align-items: center;
-    width: 20%;
-    justify-content: center;
+                                    display: flex;
+                                    align-items: center;
+                                    width: 20%;
+                                    justify-content: center;
 }
 
 #div-cadastro {
-    background-color: blue;
-    margin: 10px;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border: 1px solid white;
+                                    background-color: blue;
+                                    margin: 10px;
+                                    padding: 5px 20px;
+                                    border-radius: 5px;
+                                    border: 1px solid white;
 
 }
 
 #div-login {
-    background-color: white;
-    margin: 10px;
-    padding: 5px 20px;  
-    border-radius: 5px;  
-    border: 1px solid black;   
+                                    background-color: white;
+                                    margin: 10px;
+                                    padding: 5px 20px;  
+                                    border-radius: 5px;  
+                                    border: 1px solid black;   
 }
 
 #link-cadastro {
-    color: white;
-    text-decoration: none;
+                                    color: white;
+                                    text-decoration: none;
 }
 
 #link-login {
-    color: black;
-    text-decoration: none;
+                                    color: black;
+                                    text-decoration: none;
 }
 
 #div-cadastro:hover {
-    background-color: #391681;
+                                    background-color: #391681;
 }
 
 #div-login:hover {
-    background-color: #391681;
+                                    background-color: #391681;
 }
 
         /* img Login*/
 .div-img-login {
-            width: 450px;
-            margin-top: 10px;
+                                    width: 450px;
+                                    margin-top: 10px;
                 
 }
 
 .img-login {
-            width: 20px;
-            padding: 7px 30px;
-            height: 20px;
-            margin: 5px;
-            border-radius: 5px;
-            cursor: pointer;
+                                    width: 20px;
+                                    padding: 7px 30px;
+                                    height: 20px;
+                                    margin: 5px;
+                                    border-radius: 5px;
+                                    cursor: pointer;
 }
 
-#img-login-facebook {           background-color: #1B77F3;}
-#img-login-google   {           background-color: #ECECEC;}
-#img-login-apple    {           background-color: #000000;}
+#img-login-facebook {               background-color: #1B77F3;}
+#img-login-google   {               background-color: #ECECEC;}
+#img-login-apple    {               background-color: #000000;}
 
 #img-login-facebook {               background-color: #1B77F3;}
 #img-login-google   {               background-color: #ECECEC;}
@@ -156,20 +159,14 @@ section {
                                 width: 30vw;
     }
 
-#senha {
+    #senha {
                                 width:25vw;
     }
 
-
-    .input {
-                                width: 40vw;
-    }
-    
     .img-login {
-        width: 20px;
-        padding: 6px 25px;
-        height: 20px;
-        margin: 3px;
-
+                                width: 20px;
+                                padding: 6px 25px;
+                                height: 20px;
+                                margin: 3px;
 }
 }
