@@ -119,19 +119,25 @@ section {
     background-color: #391681;
 }
 
-       /* img Login*/
+        /* img Login*/
 .div-img-login {
-                                    width: 450px;
-                                    margin-top: 10px;      
+            width: 450px;
+            margin-top: 10px;
+                
 }
 
 .img-login {
-                                    width: 30px;
-                                    padding: 7px 40px;
-                                    height: 30px;
-                                    margin: 5px;
-                                    border-radius: 5px;
+            width: 20px;
+            padding: 7px 30px;
+            height: 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
 }
+
+#img-login-facebook {           background-color: #1B77F3;}
+#img-login-google   {           background-color: #ECECEC;}
+#img-login-apple    {           background-color: #000000;}
 
 #img-login-facebook {               background-color: #1B77F3;}
 #img-login-google   {               background-color: #ECECEC;}
@@ -158,11 +164,12 @@ section {
     .input {
                                 width: 40vw;
     }
+    
+    .img-login {
+        width: 20px;
+        padding: 6px 25px;
+        height: 20px;
+        margin: 3px;
 
-    #div-login {
-                        width: 20%;
-
-
-
-
-}}
+}
+}
