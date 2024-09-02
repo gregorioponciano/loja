@@ -7,7 +7,7 @@ h1, h2 {
 
 .section{
                                 display: none;
-                                margin: 100px auto;
+                                margin: 70px auto;
                                 border-radius: 10px;
                                 margin-bottom: 50px;
 }
@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 #content1 {
-                                background-image: linear-gradient(to left, rgba(255, 255, 255, 0.999), rgba(214, 40, 200));
+                                background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 0, 0, 0.404));
 }
 #content2 {
                                 background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(53, 165, 19, 0.404));
@@ -29,7 +29,7 @@ h1, h2 {
 #content4 {                     background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 255, 0.596));
                                 
 }
-#content5 {                    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 0, 0, 0.404));                               
+#content5 {                    background-image:    linear-gradient(to left, rgba(255, 255, 255, 0.999), rgba(214, 40, 200));                            
 }
 
 .content {
@@ -142,7 +142,7 @@ h1, h2 {
 }
 
 #li-paginas1 {
-                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
+                                background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
 }
 
 #li-paginas2 {
@@ -156,7 +156,7 @@ h1, h2 {
 #li-paginas4 {       
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
 }
-#li-paginas5 {                  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(255, 0, 0, 0.404));
+#li-paginas5 {                  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
         
 }
 
