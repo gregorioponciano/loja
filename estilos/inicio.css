@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+#active-inicio {
+                                background-color: var(--color-active);
+                                padding: 8px;
+                                border-radius: 10px;
+}
 
 h1 {                            color: var(--color-h1-content);                                      
                                 text-align: center;

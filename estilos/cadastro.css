@@ -7,6 +7,12 @@ body {
                                 display: block;
 }
 
+#active-cadastro {
+                                background-color: var(--color-active);
+                                padding: 8px;
+                                border-radius: 10px;
+}
+
 .cadastro {
                                 background-image: linear-gradient(to left, #9E0D5D, #391681);
                                 border-radius: 10px;

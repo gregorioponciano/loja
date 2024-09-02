@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+#active-loja {
+                                background-color: var(--color-active);
+                                padding: 8px;
+                                border-radius: 10px;
+}
+
 h1, h2 {
         color: black;
         text-align: center;                               

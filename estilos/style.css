@@ -3,6 +3,7 @@
 :root {
                                 --color-background: #00000077;
                                 --color-menu-link: #d628c8;
+                                --color-active: #ffffff;
                                 --color-menu: #302929;
                                 --color-a-hover-menu: #ffffff;
                                 --color-h1-content: #FEC800;
@@ -68,12 +69,6 @@ body {
                                 font-weight: bold;
 }
 
-
-#active {
-                                background-color: var(--color-a-hover-menu);
-                                padding: 8px;
-                                border-radius: 10px;
-}
 
 .active:hover { 
                                 background-color: white;

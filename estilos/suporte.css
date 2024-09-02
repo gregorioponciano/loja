@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 
+#active-suporte {
+                                background-color: var(--color-active);
+                                padding: 8px;
+                                border-radius: 10px;
+}
+
+
 section{
                                 width: 50vw;
                                 margin: 100px auto;
