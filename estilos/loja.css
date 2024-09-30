@@ -32,11 +32,8 @@ h1, h2 {
 #content3 {       
                                 background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 230, 6, 0.404));
 }
-#content4 {                     background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 255, 0.596));
-                                
-}
-#content5 {                    background-image:    linear-gradient(to left, rgba(255, 255, 255, 0.999), rgba(214, 40, 200));                            
-}
+
+#content4 {                    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.596), rgba(0, 0, 255, 0.596));}
 
 .content {
                                 text-align: center; 
@@ -162,9 +159,7 @@ h1, h2 {
 #li-paginas4 {       
                                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(0, 0, 255, 0.596));
 }
-#li-paginas5 {                  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgba(214, 40, 200));
-        
-}
+
 
 @media screen and (max-width: 768px){
 
