@@ -101,41 +101,6 @@ section {
                                 background-color: #391681;
 }
 
-#section-concordo, #section-notificar-email  {
-                                width: 30vw;
-                                transition: 0.3s;
-}
-
-#a-mais-termos {
-                                color: white;
-                                display: inline;
-}
-
-#p-mais-termos {
-                                  
-                                display: none;
-}
-
-#a-menos-termos {
-                                color: black;
-                                font-size: 18px;
-                                display: none; 
-}
-
-#a-mais-noticias {
-                                color: white;
-                                display: inline;
-}
-
-#a-menos-noticias {
-                                color: black;
-                                font-size: 18px;
-                                display: none;
-}
-
-#p-mais-noticias {
-                                display: none;
-}
 
         /* img Login*/
 .div-img-login {
