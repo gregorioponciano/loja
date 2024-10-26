@@ -30,7 +30,7 @@
 
     <div class="cadastro">
         <h1>Login</h1>
-        <form method="post" autocomplete="off">
+        <form method="post" id="formLogin" autocomplete="off">
             <section>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome"  class="input" placeholder="Nome ou email" required>
@@ -47,17 +47,15 @@
                     <input type="checkbox" checked class="lembrar" id="lembrar">
                     <label for="lembrar">Lembrar-Me</label>
             </section>
-                                
-            <div class="container-login-cadastro">
-                <div id="div-login">
-                    <a href="login.html" id="link-login" onclick="logar()">Login</a>
-                </div>
-                <div id="div-cadastro">
-                    <a href="cadastro.html" id="link-cadastro">Cadastro</a>
-                </div>
 
-            </div>
+            <input type="submit" value="Login" id="login">
+
+                <!-- Área onde as mensagens de sucesso ou erro aparecerão -->
+    <div id="mensagem"></div>
+                                
+
             <div class="div-img-login">
+                <a href="cadastro.html" id="cadastro">Cadastro</a>
                 <a href="#" id="a-esqueceu-senha">Esqueceu a senha</a><br>
                 <img src="imagens/img-login/facebook-icon.png" alt="facebook" class="img-login" id="img-login-facebook">
                 <img src="imagens/img-login/google-icon.png" alt="google" class="img-login" id="img-login-google">

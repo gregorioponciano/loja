@@ -30,7 +30,7 @@
 
     <div class="cadastro">
         <h1>Cadastre-se</h1>
-        <form action="cadastro.php" method="post">
+        <form action="" id="formCadastro" method="post">
 
             <section>
                 <label for="nome">Nome Completo:</label>
@@ -40,11 +40,6 @@
             <section>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" class="input" placeholder="Endereço de e-mail" required minlength="10" maxlength="50" autocomplete="email">
-            </section><br>
-
-            <section>
-                <label for="conf-email">Confirmar Email:</label>
-                <input type="email" name="email" id="conf-email" class="input" placeholder="Endereço de e-mail" required minlength="10" maxlength="50" autocomplete="email">
             </section><br>
 
             <section>
@@ -60,27 +55,15 @@
             <label>
                 <input type="checkbox" id="termos" />
                 <span id="termos-texto">Termos e Condições...</span>
-                <div id="termos-conteudo" style="display: none;">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed.
-                </div>
               </label>
               <!-- Input checkbox para notificar por email -->
             <label>
                 <input type="checkbox" id="notificar-email" />
                 <span id="notificar-email-texto">Notificar por Email...</span>
-                <div id="notificar-email-conteudo" style="display: none;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed. Cras ornare magna sed magna vestibulum, sed vestibulum magna sed.
-                </div>
             </label>
 
-            <div class="container-login-cadastro">
-                <div id="div-cadastro">
-                    <a href="cadastro.html" id="link-cadastro" onclick="cadastro()">Cadastro</a>
-                </div>
-                <div id="div-login">
-                    <a href="login.html" id="link-login">Login</a>
-                </div>
-            </div>
+            <input type="submit" id="cadastrar" value="Cadastre-se" >
+
             <div class="div-img-login">
                 <img src="imagens/img-login/facebook-icon.png" alt="facebook" class="img-login" id="img-login-facebook">
                 <img src="imagens/img-login/google-icon.png" alt="google" class="img-login" id="img-login-google">
