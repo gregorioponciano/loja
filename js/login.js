@@ -13,6 +13,7 @@ document.getElementById("formLogin").addEventListener("submit", function(event) 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
         mensagem.textContent = "Login realizado com sucesso! Bem-vindo!";
         mensagem.className = "mensagem-sucesso";
+        alert('susesso')
     } else {
         mensagem.textContent = "Usuário ou senha incorretos. Tente novamente.";
         mensagem.className = "mensagem-erro";
