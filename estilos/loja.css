@@ -11,6 +11,10 @@ h1, h2 {
         text-align: center;                               
 }
 
+.img-section {
+                                width: 27vw;
+}
+
 .section{
                                 display: none;
                                 margin: 70px auto;
@@ -167,6 +171,10 @@ h1, h2 {
                                 width: 70%;
                                 
         }
+        
+        .img-section {
+            width: 50vw;
+}
 
         .meu-rosto {
                                 display: block;
