@@ -31,38 +31,41 @@
     <div class="content" id="content">
         <h1>Crie um site profissional</h1>
         <p class="p-content">Destaque-se na internet com um layout exclusivo e moderno para o seu negócio.</p>
-        <button id="open-modal" class="button-content" onclick="abrirModal()">Saiba Mais</button>
-    
+        <button id="abrirModalSimples">Saiba mais</button>    
 
-        <div class="modal">
-            <button class="fecharModal" onclick="fecharModal()">X</button>
-            <div class="overlay">
-                <h3 class="h3Modal">Crie Seu Site</h3>
-                <p class="pModal">Dê um impulso à sua vida com nossos serviços! <br>
-                Cansado de se sentir preso em uma rotina? <br>        
-                Deseja alcançar seus objetivos com mais rapidez e eficiência? <br>        
-                Então você precisa conhecer a nossa empresa! <br>        
-                Nosso serviço online oferece: <br>        
-                Soluções personalizadas para suas necessidades específicas. <br>
-                Resultados comprovados por milhares de clientes satisfeitos. <br>
-                Acessível a qualquer hora, em qualquer lugar. <br>
-                Suporte de especialistas experientes. <br>
-                Com o nossos serviços, você pode: <br>        
-                Aumentar sua produtividade e alcançar seus objetivos mais rapidamente. <br>
-                Conectar-se com pessoas de todo o mundo e expandir seus horizontes. <br>
-                Não perca mais tempo! <br>        
-                Inscreva-se hoje mesmo no site e comece a transformar sua vida! <br>        
-            
-                Visite nosso site para saber mais: <br>       
-                <a href="https://gregorioponciano.github.io/loja/inicio.html">Acesse Já</a> <br>        
-                Não deixe essa oportunidade passar! <br>        
-                Invista em você mesmo e em seu futuro com a nossa empresa! <br>        
-                Sua vida merece o melhor! <br>       
-                #Motivação #Sucesso #Transformação #Serviçoonline #Rio40Graus      
-                <img src="imagens/logo.loja.png" alt="logo" id="img_header_logo"></p> <br>
+            <!-- Modal Simples -->
+    <div id="modalInfoSimples">
+        <div class="modal-conteudo-simples">
+            <span class="fechar-simples" onclick="fecharModalSimples()">&times;</span>
+            <h3 class="h3Modal">Crie Seu Site</h3>
+            <p class="pModal">Dê um impulso à sua vida com nossos serviços! <br>
+            Cansado de se sentir preso em uma rotina? <br>        
+            Deseja alcançar seus objetivos com mais rapidez e eficiência? <br>        
+            Então você precisa conhecer a nossa empresa! <br>        
+            Nosso serviço online oferece: <br>        
+            Soluções personalizadas para suas necessidades específicas. <br>
+            Resultados comprovados por milhares de clientes satisfeitos. <br>
+            Acessível a qualquer hora, em qualquer lugar. <br>
+            Suporte de especialistas experientes. <br>
+            Com o nossos serviços, você pode: <br>        
+            Aumentar sua produtividade e alcançar seus objetivos mais rapidamente. <br>
+            Conectar-se com pessoas de todo o mundo e expandir seus horizontes. <br>
+            Não perca mais tempo! <br>        
+            Inscreva-se hoje mesmo no site e comece a transformar sua vida! <br>        
+        
+            Visite nosso site para saber mais: <br>       
+            <a href="https://gregorioponciano.github.io/loja/inicio.html">Acesse Já</a> <br>        
+            Não deixe essa oportunidade passar! <br>        
+            Invista em você mesmo e em seu futuro com a nossa empresa! <br>        
+            Sua vida merece o melhor! <br>       
+            #Motivação #Sucesso #Transformação #Serviçoonline #Rio40Graus      
+            <img src="imagens/logo.loja.png" alt="logo" id="img_header_logo"></p> <br>
             </div>
         </div>
     </div>
+
+       
+   
      <div class="content" id="content1">
         <h1>Melhore sua presença online hoje!</h1>
         <p class="p-content"> contrate os melhores serviços  para sua loja online.</p>
@@ -70,7 +73,7 @@
     </div>
 
     <div class="recado">
-        <form action="/enviar" method="post" id="form-contato">
+        <form action="" method="post" id="form-contato">
             <caption><h3>Fale conosco</h3></caption><br>
 
             <section>
@@ -135,6 +138,33 @@
         
             <input type="submit" value="Enviar" class="enviar" id="enviar">
           </form>
+
+    </div>
+
+            <h2>Status/Contatos</h2>
+    <div class="div-status-loja">
+    
+        <div class="status-loja" id="status"></div>
+        <p id="ver-mais-status" class="ver-mais-status">ver mais</p>
+    </div>
+     <!-- Modal -->
+     <div id="modal-horario">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <div class="modal-titulo">Horários de Funcionamento</div>
+            <div class="modal-texto">
+                
+                <strong>SEG</strong>: 18:00 às 23:00<br>
+                <strong>TER</strong>: 18:00 às 23:00<br>
+                <strong>QUA</strong>: 18:00 às 23:00<br>
+                <strong>QUI</strong>: 18:00 às 23:00<br>
+                <strong>SEX</strong>: 18:00 às 23:00<br>
+                <strong>SÁB</strong>: 7:00 às 23:00<br>
+                <strong>DOM</strong>: 7:00 às 23:00<br><br>
+                <strong>Endereço</strong>: Avenida Rio40Graus, 240, Centro - Guaiçara/SP<br><br>
+                <strong>Email</strong>: rio40graus@email.com
+            </div>
+        </div>
     </div>
 
     <div class="redes" id="redes">
@@ -157,6 +187,7 @@
 
     <script src="./js/menubar.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/status.js"></script>
     
 </body>
 </html>

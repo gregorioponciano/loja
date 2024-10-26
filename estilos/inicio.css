@@ -13,6 +13,10 @@ h1 {                            color: var(--color-h1-content);
                                 font-size: 2em;
 }
 
+h2 {
+                                text-align: center;
+}
+
 .p-content {
                                 text-align: center;
                                 width: 82vw;
@@ -51,64 +55,65 @@ h1 {                            color: var(--color-h1-content);
 
 }
           /*MODAL SAIBA MAIS*/
-.modal {
-                                position: absolute;
-                                top: 40%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
-                                max-width: 700px;
-                                background-color: #fff;
-                                border-radius: 10px;
-                                overflow-y: auto; /* Habilita scroll vertical */
-                                padding: 20px;
-                                max-height: 50vh; /* Limita a altura do modal a 90% da altura da tela */
-                                width: 70vw;
-                                margin-top: 100px;
-                                display: none;
-}
-
-/* Botão de fechar */
-.fecharModal {
-                                position: absolute;
-                                top: 10px;
-                                right: 10px;
-                                cursor: pointer;
-                                color: #000000a3;
-                                font-size: 20px;
-                                font-weight: bold;
-                                transition: color 0.2s ease-in-out;
-}
-
-.fecharModal:hover {
-                                color: red;
-}
-
-
-/* Seção de conteúdo dentro do modal */
-.modal-content-section {
-                                margin-bottom: 20px;
-}
-
-/* Subtítulo dentro do modal */
-.h3Modal {
-                                font-size: 16px;
-                                font-weight: bold;
-                                margin-bottom: 5px;
-                                text-align: center;
-}
-
-/* Parágrafo dentro do modal */
-.pModal {
-                                margin-bottom: 10px;
-                                text-align: center;
-                                line-height: 1.5em;
-}
+        /* Estilos para o botão de abrir o modal */
+        #abrirModalSimples {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+    
+            /* Estilos para o fundo e contêiner do modal */
+            #modalInfoSimples {
+                display: none; /* Oculto por padrão */
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.6);
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .modal-conteudo-simples {
+                background-color: white;
+                padding: 20px;
+                width: 300px;
+                border-radius: 8px;
+                text-align: center;
+                position: relative;
+            }
+    
+            /* Estilo para o botão de fechar */
+            .fechar-simples {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 18px;
+                color: #333;
+                cursor: pointer;
+            }
+    
+            /* Estilos para o texto */
+            .modal-titulo-simples {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+            
+            .modal-texto-simples {
+                font-size: 16px;
+                line-height: 1.5;
+            }
 /*contato whats*/
 .button-content{
-                                color: black;
+                                color: white;
+                                background-color: #007bff;;
                                 padding: 10px 20px;
                                 font-size: 16px;
-                                border: 1px solid #ccc;
                                 cursor: pointer;
 }
 
@@ -160,6 +165,81 @@ input {
                                 color: rgb(37, 219, 67);
                                 cursor: pointer;
 }
+
+.div-status-loja {
+                                display: flex;
+                                justify-content: center;
+                                background-color: #391681;
+                                width: 90vw;
+                                margin: auto;
+}
+.status-loja {
+                                text-align: right;
+                                margin: 10px;
+                                padding: 5px 15px;
+}
+
+.ver-mais-status {
+                                margin: 10px;
+                                cursor: pointer;
+                                padding: 5px 15px;
+                                color: white;
+                                background-color: #007bff;
+}
+
+        /* Estilos para o botão de abrir o modal */
+        #abrirModal {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+    
+            /* Estilos para o fundo e contêiner do modal */
+            #modal-horario {
+                display: none; /* Oculto por padrão */
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.6);
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .modal-conteudo {
+                background-color: white;
+                padding: 20px;
+                width: 300px;
+                border-radius: 8px;
+                text-align: center;
+                position: relative;
+            }
+    
+            /* Estilo para o botão de fechar */
+            .fechar {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 18px;
+                color: #333;
+                cursor: pointer;
+            }
+    
+            /* Estilos para o texto */
+            .modal-titulo {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+            
+            .modal-texto {
+                font-size: 16px;
+                line-height: 1.5;
+            }
 
 
 @media screen and (max-width: 768px){

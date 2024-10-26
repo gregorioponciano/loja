@@ -5,12 +5,12 @@ function verificarStatusFuncionamento() {
 
     // Verifica se é sábado ou domingo
     if (diaSemana === 0 || diaSemana === 6) { 
-      if (hora >= 7 && hora < 12) {  // De sabado e domingo
+      if (hora >= 7 && hora < 23) {  // De sabado e domingo
         return 'Aberta';
       } else {
         return 'Fechado';
       }
-    } else if (hora >= 18 && hora < 22) { // De segunda a sexta
+    } else if (hora >= 18 && hora < 23) { // De segunda a sexta
       return 'Aberta';
     } else {
       return 'Fechado';
@@ -22,9 +22,29 @@ function verificarStatusFuncionamento() {
   statusElement.textContent = `${status}`;
 
   if (status === 'Aberta') {
-  statusElement.textContent = 'Aberta';
-  statusElement.style.color = 'green';
+  statusElement.textContent = '(Aberto)';
+  statusElement.style.color = '#00ff00';
+  statusElement.style.textDecoration = 'underline';
 } else {
   statusElement.textContent = 'Fechado';
   statusElement.style.color = 'red';
+  statusElement.style.textDecoration = 'underline';
 }
+
+
+        // Função para abrir o modal
+        document.getElementById("ver-mais-status").onclick = function() {
+          document.getElementById("modal-horario").style.display = "flex";
+      }
+
+      // Função para fechar o modal
+      function fecharModal() {
+          document.getElementById("modal-horario").style.display = "none";
+      }
+
+      // Fecha o modal se o usuário clicar fora do conteúdo
+      window.onclick = function(event) {
+          if (event.target == document.getElementById("modal-horario")) {
+              fecharModal();
+          }
+      }

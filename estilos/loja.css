@@ -14,6 +14,9 @@ h1, h2 {
 .img-section {
                                 width: 27vw;
 }
+.img-section-ia {
+                                width: 8vw;
+}
 
 .section{
                                 display: none;
@@ -174,6 +177,9 @@ h1, h2 {
         
         .img-section {
             width: 50vw;
+}
+        .img-section-ia {
+            width: 15vw;
 }
 
         .meu-rosto {

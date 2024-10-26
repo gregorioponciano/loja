@@ -1,14 +1,20 @@
-// Função para abrir o modal
-function abrirModal() {
-    var modal = document.querySelector('.modal');
-    modal.style.display = 'block';
-}
+        // Função para abrir o modal simples
+        document.getElementById("abrirModalSimples").onclick = function() {
+            document.getElementById("modalInfoSimples").style.display = "flex";
+        }
 
-// Função para fechar o modal
-function fecharModal() {
-    var modal = document.querySelector('.modal');
-    modal.style.display = 'none';
-}
+        // Função para fechar o modal simples
+        function fecharModalSimples() {
+            document.getElementById("modalInfoSimples").style.display = "none";
+        }
+
+        // Fecha o modal se o usuário clicar fora do conteúdo
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("modalInfoSimples")) {
+                fecharModalSimples();
+            }
+        }
+
 
         // abrir o contato de whats pagina inicio
 var botaoAbrirSite = document.getElementById('abrirSite');
