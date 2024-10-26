@@ -64,6 +64,11 @@ h2 {
                 cursor: pointer;
                 font-size: 16px;
             }
+
+                    /* Efeito de hover */
+        #abrirModalSimples:hover {
+                background-color: #0056b3; /* Cor mais escura para o hover */
+            }
     
             /* Estilos para o fundo e contêiner do modal */
             #modalInfoSimples {
@@ -115,7 +120,13 @@ h2 {
                                 padding: 10px 20px;
                                 font-size: 16px;
                                 cursor: pointer;
+                                border: none;
 }
+
+        /* Efeito de hover */
+        .button-content:hover {
+                background-color: #0056b3; /* Cor mais escura para o hover */
+            }
 
         /*formulario-deixar contato*/
 .recado{
