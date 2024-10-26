@@ -76,8 +76,8 @@ h2 {
                 position: fixed;
                 top: 52%;
                 left: 50%;
-                transform: translate(-50%, -50%);
-
+                transform: translate(-50%, -50%);  
+                width: 90vw;                 
                 background-color: rgba(0, 0, 0, 0.6);
                 justify-content: center;
                 align-items: center;
