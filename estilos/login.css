@@ -94,10 +94,11 @@ section {
 
 #login {
         background-color: #007bff;
+        color: white;
         padding: 5px 20px;
         margin: 10px;
         border-radius: 5px;
-        border: 1px solid black;
+        border: none;
 
         
 }
