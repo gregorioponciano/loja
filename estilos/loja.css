@@ -103,7 +103,7 @@ h1, h2 {
 }
 
 .paragrafo-free {
-                                background-color: #302929;
+                                background-color: #007bff;
                                 border: 1px solid black;
                                 padding: 10px;
                                 width: 285px;
@@ -115,6 +115,7 @@ h1, h2 {
 
 .paragrafo-free:hover {
                                 animation: linkFree 0.59s  alternate;
+                                background-color: #0056b3;
 }
 
 .h2-horarios, 
