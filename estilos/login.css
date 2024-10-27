@@ -93,7 +93,7 @@ section {
 }
 
 #login {
-        background-color: blue;
+        background-color: #007bff;
         padding: 5px 20px;
         margin: 10px;
         border-radius: 5px;
@@ -103,8 +103,8 @@ section {
 }
 
 #login:hover {
-        border: 1px solid white;
-        color: white;
+
+        background-color: #0056b3;
 }
 
         /* Estilo básico para a mensagem de erro */

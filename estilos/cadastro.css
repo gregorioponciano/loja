@@ -61,7 +61,7 @@ section {
 } 
 
 #cadastrar {
-                                background-color: blue;
+                                background-color: #007bff;
                                 padding: 5px 20px;
                                 margin: 10px;
                                 border-radius: 5px;
@@ -71,8 +71,8 @@ section {
 }
 
 #cadastrar:hover {
-                                border: 1px solid white;
-                                color: white;
+
+        background-color: #0056b3;
 }
 
 
