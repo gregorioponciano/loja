@@ -50,26 +50,25 @@
         }
 
         /* Carrossel */
-        .carousel-container {
-            position: relative;
-            margin: 3rem auto;
-            overflow: hidden;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            max-width: 95%;
-        }
+.carousel-container {
+    position: relative;
+    margin: 3rem auto;
+    overflow: hidden;
+    max-width: 95%;
+}
 
-        .carousel {
-            display: flex;
-            transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-            will-change: transform;
-        }
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 10px 0; /* Espaço para sombras */
+}
 
-        .carousel-item {
-            min-width: 100%;
-            padding: 1rem;
-            transition: opacity 0.3s ease;
-        }
+/* Mobile: 1 item por vez */
+.carousel-item {
+    flex: 0 0 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
 
         .card {
             background: white;
@@ -328,36 +327,22 @@
 
         /* Responsividade */
         @media (min-width: 768px) {
-            .carousel-item {
-                min-width: 50%;
-            }
+        .carousel-item {
+        flex: 0 0 calc(50% ); /* 2 itens com margem */
+    }
 
             h1 {
                 font-size: 3rem;
             }
         }
 
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
             .carousel-item {
                 min-width: 33.333%;
             }
         }
 
-        @media (max-width: 576px) {
-            .card-img {
-                height: 150px;
-            }
-
-            .modal-content {
-                width: 95%;
-            }
-
-            .carousel-btn {
-                width: 35px;
-                height: 35px;
-                font-size: 0.9rem;
-            }
-        }
+       
 
         /* Animações */
         @keyframes fadeIn {

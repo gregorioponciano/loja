@@ -33,7 +33,7 @@
             // Ajustar para layout responsivo
             let itemsToShow = 1;
             if (window.innerWidth >= 768) itemsToShow = 2;
-            if (window.innerWidth >= 992) itemsToShow = 3;
+            if (window.innerWidth >= 1024) itemsToShow = 3;
             
             // Garantir que o índice esteja dentro dos limites
             if (index < 0) {
