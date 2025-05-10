@@ -27,47 +27,339 @@
         </div>
     </div>
 
-    <section id="section1" class="section">
 
-            <div class="content" id="content1">
-                <img src="imagens/img-loja/menu-gratis.png" class="img-section" alt="foto">
-                <img src="imagens/img-loja/mano.png" alt="foto-gregorio" class="meu-rosto"> <br>
-                <p>Atualizações em breve...</p> <br>
-                <p class="paragrafo-free"><a href="https://gregorioponciano.github.io/layout/ciber-jogos/inicio.html" target="_blank" class="link-free">Ciber Jogos</a></p>
-                <p class="paragrafo-free"><a href="https://gregorioponciano.github.io/layout/cassinos/public/inicio.html" target="_blank" class="link-free">Cassinos</a></p>
-                <p class="paragrafo-free"><a href="https://gregorioponciano.github.io/layout/lanchonete/index.html" target="_blank" class="link-free">Lanchonetes</a></p>       
+    <main>
+        <!-- Carrossel de Produtos -->
+        <section class="container animate-up delay-1">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <!-- Item 1 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?bronze" alt="Pacote Bronze" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote Bronze</h3>
+                                <div class="card-price">R$ 99,90/mês</div>
+                                <p class="card-text">Ideal para quem está começando e quer benefícios exclusivos.</p>
+                                <button class="btn" onclick="openModal('bronze')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?silver" alt="Pacote Prata" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote Prata</h3>
+                                <div class="card-price">R$ 199,90/mês</div>
+                                <p class="card-text">Para quem quer mais vantagens e recursos avançados.</p>
+                                <button class="btn" onclick="openModal('silver')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?gold" alt="Pacote Ouro" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote Ouro</h3>
+                                <div class="card-price">R$ 299,90/mês</div>
+                                <p class="card-text">Experiência premium com todos os benefícios exclusivos.</p>
+                                <button class="btn" onclick="openModal('gold')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?diamond" alt="Pacote Diamante" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote Diamante</h3>
+                                <div class="card-price">R$ 499,90/mês</div>
+                                <p class="card-text">O máximo em exclusividade e vantagens para membros VIP.</p>
+                                <button class="btn" onclick="openModal('diamond')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?platinum" alt="Pacote Platina" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote Platina</h3>
+                                <div class="card-price">R$ 799,90/mês</div>
+                                <p class="card-text">Para quem exige o melhor que podemos oferecer.</p>
+                                <button class="btn" onclick="openModal('platinum')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/600x400/?vip" alt="Pacote VIP" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pacote VIP</h3>
+                                <div class="card-price">R$ 999,90/mês</div>
+                                <p class="card-text">Experiência única com benefícios personalizados.</p>
+                                <button class="btn" onclick="openModal('vip')">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="carousel-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
             </div>
-    </section>
-    
-    <section id="section2" class="section">
-        <div class="content" id="content2">
-            <img src="imagens/img-loja/servidores.png" class="img-section" alt="foto">
-            <img src="imagens/img-loja/mano-verde.png" alt="foto-gregorio" class="meu-rosto"> <br>
-            <p>Atualizações em breve...</p> <br>
-            <p class="paragrafo-free"><a href="https://gregorioponciano.github.io/javascript/aplicativos/previsao/previsao.html" target="_blank" class="link-free">Previsao</a></p>
-            <p class="paragrafo-free"><a href="https://gregorioponciano.github.io/javascript/aplicativos/calculadora/index.html" target="_blank" class="link-free">Calculadora</a></p>
-            <p class="paragrafo-free"><a href="https://ngrok.com/" class="link-free">NGROK</a></p>         
-        </div>
-    </section>
-    
-    <section id="section3" class="section">
-        <div class="content" id="content3">
-            <img src="imagens/img-loja/IA.png" class="img-section-ia" alt="foto">
-            <img src="imagens/img-loja/mano-amarelo.png" alt="foto-gregorio" class="meu-rosto"> <br>
-            <p>Atualizações em breve...</p> <br>
-            <p class="paragrafo-free"><a href="https://www.erase.bg/pt" target="_blank" class="link-free">background</a></p>
-            <p class="paragrafo-free"><a href="https://elevenlabs.io/" target="_blank" class="link-free">Eleven Labs</a></p> 
-            <p class="paragrafo-free"><a href="https://www.textstudio.com/logo/texstudio-499" target="_blank" class="link-free">Text Studio</a></p>
-        </div>
-    </section>
 
-    <div class="paginas">
-        <ul>
-            <li class="li-paginas" id="li-paginas1" onclick="toggleContent('section1')"><p class="p-li-paginas">Menus</p>
-            <li class="li-paginas" id="li-paginas2" onclick="toggleContent('section2')"><p class="p-li-paginas">Servidores</p>
-            <li class="li-paginas" id="li-paginas3" onclick="toggleContent('section3')"><p class="p-li-paginas">IA</p>
-        </ul>
+            <div class="carousel-dots" id="dotsContainer"></div>
+        </section>
+
+        <!-- Seção secundária com animação -->
+        <section class="container animate-up delay-2" style="margin-top: 4rem;">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary);">Nossos Destaques</h2>
+            
+            <div class="row" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <div class="card" style="width: 300px; animation: fadeIn 1s ease forwards 0.3s;">
+                    <img src="https://source.unsplash.com/random/600x400/?car" alt="Carro VIP" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Carro VIP</h3>
+                        <p class="card-text">Veículos exclusivos para membros premium.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 300px; animation: fadeIn 1s ease forwards 0.5s;">
+                    <img src="https://source.unsplash.com/random/600x400/?house" alt="Residência" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Residência Exclusiva</h3>
+                        <p class="card-text">Acesso a propriedades premium em locais selecionados.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 300px; animation: fadeIn 1s ease forwards 0.7s;">
+                    <img src="https://source.unsplash.com/random/600x400/?money" alt="Salário" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Salário Premium</h3>
+                        <p class="card-text">Remuneração especial para membros de alto nível.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modais -->
+    <div class="modal" id="bronzeModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote Bronze</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?bronze" alt="Pacote Bronze" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>1 Carro Vip</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário de R$ 1.200 por hora</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-music feature-icon"></i>
+                        <span>Spotify Premium</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-id-card feature-icon"></i>
+                        <span>Tag exclusiva no perfil</span>
+                    </div>
+                </div>
+                <p>O pacote Bronze oferece benefícios essenciais para começar sua experiência premium com o pé direito.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
     </div>
+
+    <div class="modal" id="silverModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote Prata</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?silver" alt="Pacote Prata" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>2 Carros Vip</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário de R$ 2.400 por hora</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-music feature-icon"></i>
+                        <span>Spotify Premium + YouTube Premium</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-id-card feature-icon"></i>
+                        <span>Tag exclusiva e cor personalizada</span>
+                    </div>
+                </div>
+                <p>O pacote Prata eleva sua experiência com benefícios adicionais e maior conforto.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="goldModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote Ouro</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?gold" alt="Pacote Ouro" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>3 Carros Vip + 1 Moto Exclusiva</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário de R$ 4.800 por hora</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-music feature-icon"></i>
+                        <span>Todos os serviços de streaming</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-home feature-icon"></i>
+                        <span>Casa média em localização premium</span>
+                    </div>
+                </div>
+                <p>Com o pacote Ouro, você desfruta de uma experiência verdadeiramente premium com todos os benefícios.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="diamondModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote Diamante</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?diamond" alt="Pacote Diamante" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>5 Carros Vip + 2 Motos Exclusivas</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário de R$ 9.200 por hora</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-home feature-icon"></i>
+                        <span>Mansão em localização premium</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-crown feature-icon"></i>
+                        <span>Acesso a eventos exclusivos</span>
+                    </div>
+                </div>
+                <p>O pacote Diamante oferece o máximo em luxo e exclusividade para membros selecionados.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="platinumModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote Platina</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?platinum" alt="Pacote Platina" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>Frota completa de veículos exclusivos</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário de R$ 15.000 por hora</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-home feature-icon"></i>
+                        <span>Múltiplas propriedades em locais exclusivos</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-star feature-icon"></i>
+                        <span>Assistente pessoal 24/7</span>
+                    </div>
+                </div>
+                <p>O pacote Platina redefine o conceito de exclusividade com benefícios além do padrão premium.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="vipModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pacote VIP</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="https://source.unsplash.com/random/800x500/?vip" alt="Pacote VIP" class="modal-img">
+                <div class="modal-features">
+                    <div class="feature-item">
+                        <i class="fas fa-car feature-icon"></i>
+                        <span>Frota personalizada com veículos sob encomenda</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <span>Salário personalizado (acima de R$ 20.000/h)</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-home feature-icon"></i>
+                        <span>Propriedades em qualquer localização desejada</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-gem feature-icon"></i>
+                        <span>Benefícios totalmente personalizáveis</span>
+                    </div>
+                </div>
+                <p>O pacote VIP oferece uma experiência totalmente personalizada para atender às suas necessidades exclusivas.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+    
+
+
    
     <div class="redes" id="redes">
         <a href="https://x.com/Gregoriponci?t=PdkyVOYyk2eseWp4iuWlbw&s=09" target="_blank" class="link-redes"><img src="imagens/twiter-logo.png" alt="Twiter" class="redes-img"></a>
@@ -83,9 +375,17 @@
         <a href="cadastro.html" class="a-termos">Cadastre-se</a>
     </div>
 
-    <footer>
-        <p class="p-footer">© 2025 | GregorioPonciano - Todos os Direitos Reservados.</p>
-     </footer>
+     <footer class="animate-up delay-3">
+        <div class="container">
+            <h3>Salmoneus Premium</h3>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Termos de Serviço</a>
+                <a href="#" class="footer-link">Política de Privacidade</a>
+                <a href="#" class="footer-link">Contato</a>
+            </div>
+            <p>&copy; 2025 Todos os direitos reservados</p>
+        </div>
+    </footer>
 
     <script src="./js/menubar.js"></script>
     <script src="./js/loja.js"></script>
