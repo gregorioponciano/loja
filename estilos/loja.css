@@ -338,7 +338,7 @@
 
         @media (min-width: 1024px) {
             .carousel-item {
-                min-width: 33.333%;
+                flex: 0 0 calc(33.333%); /* 2 itens com margem */
             }
         }
 
