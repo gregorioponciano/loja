@@ -1,7 +1,3 @@
-
-
-
-
 document.getElementById("formCadastro").addEventListener("submit", function(event) {
     event.preventDefault(); // Impede o envio do formulário para processamento
 

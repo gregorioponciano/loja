@@ -77,7 +77,7 @@ h2 {
                 top: 52%;
                 left: 50%;
                 transform: translate(-50%, -50%);  
-                width: 90vw;                 
+               
                 background-color: rgba(0, 0, 0, 0.6);
                 justify-content: center;
                 align-items: center;
@@ -87,10 +87,8 @@ h2 {
   
             .modal-conteudo-simples {
                 background-color: white;
-
                 padding: 20px;
-                width: 300px;
-                height: 80vh;
+                width: 600px;
                 overflow-y: auto;
                 border-radius: 8px;
                 text-align: center;
@@ -186,6 +184,17 @@ input {
 
 
 @media screen and (max-width: 768px){
+
+
+                .modal-conteudo-simples {
+                background-color: white;
+                padding: 20px;
+                width: 80vw;
+                overflow-y: auto;
+                border-radius: 8px;
+                text-align: center;
+                position: relative;
+            }
 
         h1 {
                                 text-align: center;
